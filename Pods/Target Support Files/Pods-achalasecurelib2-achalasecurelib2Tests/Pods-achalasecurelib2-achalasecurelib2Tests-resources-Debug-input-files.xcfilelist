@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-achalasecurelib2-achalasecurelib2Tests/Pods-achalasecurelib2-achalasecurelib2Tests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/MLKitFaceDetection/GoogleMVFaceDetectorResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/TensorFlowLiteC/TensorFlowLiteC.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/TensorFlowLiteSwift/TensorFlowLite.bundle
