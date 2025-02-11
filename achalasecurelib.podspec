@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kimsHOS/achalasecurelib2.git', :tag => s.version.to_s }
 
   # ✅ Platform (Device-only)
-  s.platform = :ios, '15.6'
+  s.platform = :ios, '18.2'
 
   s.static_framework = true
 

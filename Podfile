@@ -1,4 +1,4 @@
-platform :ios, '15.6'
+platform :ios, '18.2'
 
 target 'achalasecurelib2' do
   # Use static frameworks for all dependencies
