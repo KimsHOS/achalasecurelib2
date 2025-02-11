@@ -17,7 +17,23 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import achalasecurelib2
-@_hasMissingDesignatedInitializers public class AchalaSecureResultModel : Swift.Codable {
+public class AchalaSecureResultModel : Swift.Codable {
+  public var score: Swift.String?
+  public var bitmapResultData: Foundation.Data?
+  public var status: Swift.String?
+  public var message: Swift.String?
+  public var bitmapResult: UIKit.UIImage? {
+    get
+  }
+  public init(score: Swift.String? = nil, bitmapResultData: Foundation.Data? = nil, status: Swift.String? = nil, message: Swift.String? = nil)
+  public func getMessage() -> Swift.String?
+  public func setMessage(_ message: Swift.String)
+  public func getStatus() -> Swift.String?
+  public func setStatus(_ status: Swift.String)
+  public func getBitmapResult() -> UIKit.UIImage?
+  public func setBitmapResult(_ bitmapResult: UIKit.UIImage)
+  public func getScore() -> Swift.String?
+  public func setScore(_ score: Swift.String)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
