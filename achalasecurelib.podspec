@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kimsHOS/achalasecurelib2.git', :tag => s.version.to_s }
 
   s.static_framework = true
-  s.ios.deployment_target = '15.5' # Real device minimum iOS version
+  s.ios.deployment_target = '15.6' # Real device minimum iOS version
 
   # Specify the vendored framework
   s.vendored_frameworks = 'achalasecurelib2.framework'
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   }
   
   # This ensures that no simulator support is included
-  s.platform = :ios, '15.0'
+  s.platform = :ios, '12.0'
 end
