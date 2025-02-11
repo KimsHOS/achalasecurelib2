@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'achalasecurelib'
   s.version          = '1.0.0' # Update with your version number
-  s.summary          = 'A short description of achalasecurelib.'
+  s.summary          = 'A secure library for face detection using Google ML Kit and TensorFlow Lite.'
   s.description      = <<-DESC
-                       A longer description of achalasecurelib.
+                       A secure library that provides face detection capabilities using Google ML Kit and TensorFlow Lite.
                        DESC
 
   s.homepage         = 'https://github.com/kimsHOS/achalasecurelib2'
@@ -11,20 +11,26 @@ Pod::Spec.new do |s|
   s.author           = { 'Your Name' => 'your.email@example.com' }
   s.source           = { :git => 'https://github.com/kimsHOS/achalasecurelib2.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.static_framework = true
+  s.ios.deployment_target = '15.5' # Real device minimum iOS version
 
-  s.vendored_frameworks = 'achalasecurelib2.framework' # Path to your .framework file
+  # Specify the vendored framework
+  s.vendored_frameworks = 'achalasecurelib2.framework'
 
-  # Add dependencies
+  s.requires_arc = true
+
+  # Define dependencies
   s.dependency 'GoogleMLKit/FaceDetection', '7.0.0'
   s.dependency 'TensorFlowLiteSwift'
 
-  # If your framework includes resources (e.g., images, storyboards), specify them here:
-  # s.resource_bundles = {
-  #   'achalasecurelib2' => ['achalasecurelib2/Assets/*.png']
-  # }
-
-  # If your framework uses Swift, specify the Swift version
   s.swift_version = '5.0'
 
+  # Force architecture to support only real device (arm64)
+  s.xcconfig = {
+    'ARCHS' => 'arm64', 
+    'ONLY_ACTIVE_ARCH' => 'YES' # Ensures build is for only the active architecture
+  }
+  
+  # This ensures that no simulator support is included
+  s.platform = :ios, '12.0'
 end
