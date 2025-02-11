@@ -30,10 +30,4 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64',
     'VALID_ARCHS' => 'arm64'
   }
-
-  # Test specification (for real devices only)
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.platform = :ios, '15.5'
-    test_spec.requires_app_host = true
-  end
 end

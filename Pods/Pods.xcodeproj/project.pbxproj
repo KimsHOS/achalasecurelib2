@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 71;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -19,7 +19,6 @@
 				C8233ED04C3DACB7B18D50F56011B555 /* PBXTargetDependency */,
 			);
 			name = MLKitCommon;
-			productName = MLKitCommon;
 		};
 		6D46A1F6123B14449A2A1FC04011860D /* GoogleMLKit */ = {
 			isa = PBXAggregateTarget;
@@ -31,7 +30,6 @@
 				7F0DAF76E67516B442572C76618A517D /* PBXTargetDependency */,
 			);
 			name = GoogleMLKit;
-			productName = GoogleMLKit;
 		};
 		8628FA5433C5F582EFA7209B6B4C8CD7 /* MLKitFaceDetection */ = {
 			isa = PBXAggregateTarget;
@@ -44,7 +42,6 @@
 				06D093E366CAC13D8492B54F75A78968 /* PBXTargetDependency */,
 			);
 			name = MLKitFaceDetection;
-			productName = MLKitFaceDetection;
 		};
 		AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */ = {
 			isa = PBXAggregateTarget;
@@ -56,7 +53,6 @@
 				50DB17FA0E1A91FD73B430079E1F2A78 /* PBXTargetDependency */,
 			);
 			name = TensorFlowLiteC;
-			productName = TensorFlowLiteC;
 		};
 		BE3B5914C1194353E85796E3EE3CE245 /* MLImage */ = {
 			isa = PBXAggregateTarget;
@@ -66,7 +62,6 @@
 			dependencies = (
 			);
 			name = MLImage;
-			productName = MLImage;
 		};
 		F1D55369E4C8976F396F83588DAC03C4 /* MLKitVision */ = {
 			isa = PBXAggregateTarget;
@@ -80,7 +75,6 @@
 				B4306383D635BA4B5663AFC9AF485388 /* PBXTargetDependency */,
 			);
 			name = MLKitVision;
-			productName = MLKitVision;
 		};
 /* End PBXAggregateTarget section */
 
@@ -177,7 +171,7 @@
 		72885B2E178ED344FF251549F98781F7 /* GDTCOREvent+GDTCCTSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FD5F618946FBE70B5A0A57F9304FDF /* GDTCOREvent+GDTCCTSupport.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		729723B2D78FBED859B86624862778EE /* FBLPromises.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD4456BE0DBD1A6EC2B61BA9EA2C1BE /* FBLPromises.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73914D80D756594F9BA7C23465DF899A /* GDTCORUploadBatch.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD326AF5C31E1D1F08A2918DC432AD0 /* GDTCORUploadBatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		74D7BD9B1D1F274764BCE5C2D7B7E0E3 /* Pods-achalasecurelib2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749214C9935F85ADEAC3F3A1EB575683 /* Pods-achalasecurelib2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D7BD9B1D1F274764BCE5C2D7B7E0E3 /* Pods-achalasecurelib2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743D95D0F7464C94D61230D9CCC5AB8A /* Pods-achalasecurelib2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		750A96BAC28618BD3A0AC61467ABFF28 /* GDTCCTCompressionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BF098F9C683410922A76531DFAC2DF55 /* GDTCCTCompressionHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75FAD6B3B1D31EDB7D85340FE1E7D97E /* GDTCORTransformer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 54297C714CA80E6FF9A33DCCE8B326E8 /* GDTCORTransformer_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		77040AAC1C072826B17835F6C8120BB0 /* FBLPromise+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D81CAEEE09C6432C3E926270280A473 /* FBLPromise+Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -251,7 +245,6 @@
 		BD13F57E6DC567F7200BD6D79DF77F92 /* GDTCORUploadCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3A4368312EF7C687542B0E4D89187D /* GDTCORUploadCoordinator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BD471344BCECD11058F62E2EC6888321 /* FBLPromise+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = F1848F437AC8556DAF6B5B0410775B2E /* FBLPromise+Testing.m */; };
 		BD47A58AA342408B95FC40052604830D /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5512BF527AA58B25C415B4A6E5880 /* GTMSessionFetcherService.m */; };
-		BD4F64F08A0620C60575F42FBFF8C836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		C26259D22550D45212E185D01FF30567 /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBBB15751276C10F77C154EC9CC6228 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2751B1A21AD84882857DCACF02E28F6 /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 967E2DB9D6A087C4791086F98A6AFADF /* GTMSessionFetcher.m */; };
 		C3F384691F8E22BBB0671D7EBF224F40 /* external_prequest_context.nanopb.c in Sources */ = {isa = PBXBuildFile; fileRef = F57AEA2BBA90F694F2AB563DD787FA38 /* external_prequest_context.nanopb.c */; };
@@ -285,7 +278,7 @@
 		E43AA207121580590AC849AD0162BDF7 /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7033FBFAEC6285297F2E0F14BEB73F64 /* FBLPromisePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E48EFC1471279E73EC4AF7141539ABFE /* GDTCORProductData.h in Headers */ = {isa = PBXBuildFile; fileRef = DB43DBE807388D11251A630C7D201E71 /* GDTCORProductData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4F0EBFA37B9D4E4588A7C1254A9EC32 /* GTMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4EB67619695844FAA2A5A62CCC6AF1 /* GTMLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E8B3A0B62E0CF19C8DE1531EA6F188ED /* Pods-achalasecurelib2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4424F98E2A7C1F38C931B340683FFC9 /* Pods-achalasecurelib2-dummy.m */; };
+		E8B3A0B62E0CF19C8DE1531EA6F188ED /* Pods-achalasecurelib2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBEDA86B5056C9C110C8A3D0513C4CD /* Pods-achalasecurelib2-dummy.m */; };
 		E918995B931BD334D70C6C416C49FBBB /* GULKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D777AA7D71E096F2A509C3197175839 /* GULKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9FC11126A341D96E25F785EACE00345 /* IsAppEncrypted.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F5B7A0244EAF03D24F9D945CA680C9 /* IsAppEncrypted.m */; };
 		EAC320BA54320D18231D0AEBFDA375DE /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AB74DB8D9EC1EF7328C0942F1BCBDB /* GTMNSData+zlib.m */; };
@@ -320,13 +313,6 @@
 			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
 			remoteInfo = GoogleToolboxForMac;
 		};
-		05240247C86684A90F8695364AEABD0D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC559E53E13B6FBEF4F5CC310A73AFE6;
-			remoteInfo = TensorFlowLiteC;
-		};
 		059B2EDF7D9667C6BBFB5BC9F187FE56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -348,20 +334,6 @@
 			remoteGlobalIDString = 5C0371EE948D0357B8EE0E34ABB44BF0;
 			remoteInfo = GoogleDataTransport;
 		};
-		1C67B18C6AC72D11F42DD92104E97331 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
-			remoteInfo = PromisesObjC;
-		};
-		1FC45D839373161FEA64EB0B3B31F92E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
-			remoteInfo = GoogleToolboxForMac;
-		};
 		20C1C967E5A044949D9D9424488B4F90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -369,26 +341,12 @@
 			remoteGlobalIDString = 10418167F619D6DA72BADAD10F9EC02B;
 			remoteInfo = TensorFlowLiteSwift;
 		};
-		20CBFA6A48B5AAFAE6B13B731770CD25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D46A1F6123B14449A2A1FC04011860D;
-			remoteInfo = GoogleMLKit;
-		};
 		24B1223468E18756C1B4836E5ADC500D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BE3B5914C1194353E85796E3EE3CE245;
 			remoteInfo = MLImage;
-		};
-		275E7713F877049E2C38592CD6F2E123 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1D55369E4C8976F396F83588DAC03C4;
-			remoteInfo = MLKitVision;
 		};
 		2B7676DC831FE254A69346CD324D799B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -425,13 +383,6 @@
 			remoteGlobalIDString = 417B25AC44CA1D040034CC1F375CEE36;
 			remoteInfo = "GTMSessionFetcher-GTMSessionFetcher_Core_Privacy";
 		};
-		3D7503F0A3C9C8590817389C6176EEAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE3B5914C1194353E85796E3EE3CE245;
-			remoteInfo = MLImage;
-		};
 		3E92F167250B6BD9AFB624FD06235163 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -453,20 +404,6 @@
 			remoteGlobalIDString = F1D55369E4C8976F396F83588DAC03C4;
 			remoteInfo = MLKitVision;
 		};
-		451909514F0F86D08A312A84F004DFCD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
-			remoteInfo = GoogleUtilities;
-		};
-		4800A1B5BB702FC61AE56E912386124E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2B5E7DCCBBFB32341D857D01211A1A3;
-			remoteInfo = nanopb;
-		};
 		4B7CA50F456FFA06543982F12E212A0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -487,13 +424,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = DD0D41A9315A48004E57F4F0E54095F1;
 			remoteInfo = "GoogleDataTransport-GoogleDataTransport_Privacy";
-		};
-		61A9C49303DBE80DB13568602390CFE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C0371EE948D0357B8EE0E34ABB44BF0;
-			remoteInfo = GoogleDataTransport;
 		};
 		6C5446E5E8D6C455F8BDF7409F56F00A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -529,13 +459,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
 			remoteInfo = GoogleUtilities;
-		};
-		8CB878ABCE9D5293611CC7C600EEC89C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A4338C5C8BD51549298BECF630A6D57;
-			remoteInfo = MLKitCommon;
 		};
 		8D3FA76A2A61EA638E32EF6E528687AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -586,13 +509,6 @@
 			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
 			remoteInfo = PromisesObjC;
 		};
-		BC29C056DACF875E110ACAA8AA65EB2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8628FA5433C5F582EFA7209B6B4C8CD7;
-			remoteInfo = MLKitFaceDetection;
-		};
 		BD6A4446619F178EDCCE81B8C6582BAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -628,20 +544,6 @@
 			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
 			remoteInfo = GoogleToolboxForMac;
 		};
-		E42597C614DEE5CCD3317DB692F0DF97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D676E21115185671D7258A56944ABE98;
-			remoteInfo = GTMSessionFetcher;
-		};
-		E557401F13A1389DD37D63370F9AF64E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10418167F619D6DA72BADAD10F9EC02B;
-			remoteInfo = TensorFlowLiteSwift;
-		};
 		EC3C8B33E000BD556642C9E3C42A7CB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -672,47 +574,46 @@
 		05A5DBF72289CE377C602F58446E433C /* GULNetworkInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkInfo.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULNetworkInfo.h; sourceTree = "<group>"; };
 		0616157169F25D3F0B5405A322556F55 /* GDTCORDirectorySizeTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORDirectorySizeTracker.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORDirectorySizeTracker.m; sourceTree = "<group>"; };
 		066288D82DD0EA945DFBAE9807C29F5D /* MLKitVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLKitVision.framework; path = Frameworks/MLKitVision.framework; sourceTree = "<group>"; };
-		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0743C6910EA6FA0726FDCD32ECB05B6F /* GULLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerLevel.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h; sourceTree = "<group>"; };
-		07A10E33F46F8224BE40F20590F770B9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/FBLPromises/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		07A10E33F46F8224BE40F20590F770B9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/FBLPromises/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		08C7C3896241BB5123DDBD9979EAAEE7 /* GDTCORStorageMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORStorageMetadata.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORStorageMetadata.m; sourceTree = "<group>"; };
-		0C0161B159839FC33F5422240026E0DA /* contours.tfl */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = contours.tfl; path = Resources/GoogleMVFaceDetectorResources/contours.tfl; sourceTree = "<group>"; };
+		0BA84DDBAE6B9885A604568A2C572981 /* Pods-achalasecurelib2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-achalasecurelib2.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0161B159839FC33F5422240026E0DA /* contours.tfl */ = {isa = PBXFileReference; includeInIndex = 1; name = contours.tfl; path = Resources/GoogleMVFaceDetectorResources/contours.tfl; sourceTree = "<group>"; };
 		0D57EB16CE5BFF21B20F24E83797D240 /* GoogleUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.release.xcconfig; sourceTree = "<group>"; };
 		0EFC4ECC271FA7BABF7D7A6BA4B31F32 /* TensorFlowLiteSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TensorFlowLiteSwift.modulemap; sourceTree = "<group>"; };
 		0F81ED0F16ABD761B91BBF400A23F8D8 /* GDTCOREndpoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREndpoints.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREndpoints.h; sourceTree = "<group>"; };
 		0FDE0D9B799C76AC9E13D7681ECC3577 /* TensorFlowLiteSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteSwift-umbrella.h"; sourceTree = "<group>"; };
-		1079D54D37F7D27424B418F9FF6C4549 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resources/Base/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		12B6DB0C305AC1F8142F37547A5AFA9F /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
+		1079D54D37F7D27424B418F9FF6C4549 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Resources/Base/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		12B6DB0C305AC1F8142F37547A5AFA9F /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
 		169422C4D37A8FDD06B60C0761DC1138 /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
 		175DE4C9EA8A9178E3EBEB54DA9634E0 /* Interpreter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interpreter.swift; path = tensorflow/lite/swift/Sources/Interpreter.swift; sourceTree = "<group>"; };
 		18871FBF21B7ECF0573912F068631165 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Sources/Core/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
-		1A12445FFC56BF0D42E70E1B49AF1CF8 /* external_privacy_context.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = external_privacy_context.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/external_privacy_context.nanopb.c; sourceTree = "<group>"; };
+		1A12445FFC56BF0D42E70E1B49AF1CF8 /* external_privacy_context.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = external_privacy_context.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/external_privacy_context.nanopb.c; sourceTree = "<group>"; };
 		1AFCB728A3CA036A3453F5DFC488CF4C /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
 		1B0883C32AAA6CB8BE4FCDC06EC509C1 /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
 		1B7BD73BDFBB5CEEDA909EDC31D37B24 /* TensorFlowLiteC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.release.xcconfig; sourceTree = "<group>"; };
 		1C3A4368312EF7C687542B0E4D89187D /* GDTCORUploadCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploadCoordinator.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadCoordinator.h; sourceTree = "<group>"; };
-		1D5601775997FD3F96D4BBB895A282FB /* TensorFlowLite.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TensorFlowLite.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5601775997FD3F96D4BBB895A282FB /* TensorFlowLiteSwift-TensorFlowLite */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TensorFlowLiteSwift-TensorFlowLite"; path = TensorFlowLite.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB58E3403DA79B3F4B223AB1878C6F4 /* SignatureRunnerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignatureRunnerError.swift; path = tensorflow/lite/swift/Sources/SignatureRunnerError.swift; sourceTree = "<group>"; };
 		1F1FDA5B0318F21C3D5C0825B62028D2 /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
 		218EEB7E44BD10C416A88A08F7E8E1C8 /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h; sourceTree = "<group>"; };
-		21B234E1BA9706FB285A9A861C8231C7 /* MFT_fssd_fastgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MFT_fssd_fastgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_fastgray.pb; sourceTree = "<group>"; };
+		21B234E1BA9706FB285A9A861C8231C7 /* MFT_fssd_fastgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; name = MFT_fssd_fastgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_fastgray.pb; sourceTree = "<group>"; };
 		21B46433523054ECA6EBDFCB8768C2CB /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
 		231E965E24283FEA6C261DD9B6C436D4 /* GDTCOREndpoints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCOREndpoints.m; path = GoogleDataTransport/GDTCORLibrary/GDTCOREndpoints.m; sourceTree = "<group>"; };
 		2337FDB13383B6D884D79DA53E4722E9 /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
-		2386CE6B90E78E0697CC02AB69EDFD1D /* LMprec_600.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = LMprec_600.emd; path = Resources/GoogleMVFaceDetectorResources/LMprec_600.emd; sourceTree = "<group>"; };
+		2386CE6B90E78E0697CC02AB69EDFD1D /* LMprec_600.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = LMprec_600.emd; path = Resources/GoogleMVFaceDetectorResources/LMprec_600.emd; sourceTree = "<group>"; };
 		24A01EA4C023C49631E39389ADD6CAE6 /* TensorFlowLiteSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TensorFlowLiteSwift-Info.plist"; sourceTree = "<group>"; };
 		24ABB6DD48C38F84577154E068182FA0 /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
-		251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		276BD9127A7BFBE0461637D597C3BC21 /* Pods_achalasecurelib2_achalasecurelib2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_achalasecurelib2_achalasecurelib2Tests.framework; path = "/Users/emri/Desktop/EMRI/AchalaSecure/github/achalasecurelib2/Pods/../build/Debug-iphoneos/Pods_achalasecurelib2_achalasecurelib2Tests.framework"; sourceTree = "<absolute>"; };
+		251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BD1A31B2B54FEBBE18D4A243B25058 /* GoogleDataTransport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleDataTransport.modulemap; sourceTree = "<group>"; };
 		28DEE6B7CC930E736905DB08432E7F49 /* GDTCORConsoleLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORConsoleLogger.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORConsoleLogger.m; sourceTree = "<group>"; };
-		2A94DEFA82D939EE193E095EA2E098FD /* Pods-achalasecurelib2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-achalasecurelib2-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B429146E20D94A54A855F2F1EB874B3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = GoogleDataTransport/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2B429146E20D94A54A855F2F1EB874B3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GoogleDataTransport/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2B4610D9F661950FC48DBF567901D901 /* GULNetworkInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkInfo.m; path = GoogleUtilities/Environment/NetworkInfo/GULNetworkInfo.m; sourceTree = "<group>"; };
 		2BE0C1602ACBA421179BE002F9D38A1A /* GDTCOREvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCOREvent.m; path = GoogleDataTransport/GDTCORLibrary/GDTCOREvent.m; sourceTree = "<group>"; };
 		2D06C499741D21D5A38B8D0704C956E3 /* GDTCORMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORMetrics.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORMetrics.m; sourceTree = "<group>"; };
 		2D81CAEEE09C6432C3E926270280A473 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
-		2DA38646069D412DBA3B7D9811B9BDA1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = GoogleUtilities/Privacy/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2DA38646069D412DBA3B7D9811B9BDA1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GoogleUtilities/Privacy/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2DAF80B8A92EA82D660FD0D4AC07C56B /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
 		2E62BC1E45E2B337C2138BCE23F3942D /* client_metrics.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client_metrics.nanopb.h; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.h; sourceTree = "<group>"; };
 		2E93E205180125382196BA05FC3AC69B /* ResourceBundle-GoogleMVFaceDetectorResources-MLKitFaceDetection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMVFaceDetectorResources-MLKitFaceDetection-Info.plist"; sourceTree = "<group>"; };
@@ -721,9 +622,9 @@
 		3126666156CC57BC0AC69DFF65BD2063 /* MLImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLImage.framework; path = Frameworks/MLImage.framework; sourceTree = "<group>"; };
 		3196A60D81A920F325646BAAF902A2D2 /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
 		31FD5F618946FBE70B5A0A57F9304FDF /* GDTCOREvent+GDTCCTSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDTCOREvent+GDTCCTSupport.h"; path = "GoogleDataTransport/GDTCCTLibrary/Public/GDTCOREvent+GDTCCTSupport.h"; sourceTree = "<group>"; };
-		3227F3FC45681D7CEE5D1355A532398A /* nanopb_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanopb_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "nanopb-nanopb_Privacy"; path = nanopb_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EBD6B52AA6A76F53EE87FD496876BB /* GDTCORLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORLifecycle.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORLifecycle.m; sourceTree = "<group>"; };
-		3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromisesObjC; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34438A63DA0FF6C8BB952137B1DDEE44 /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		386B52B2A444B607454E009B5C42F115 /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Wrap.h"; path = "Sources/FBLPromises/include/FBLPromise+Wrap.h"; sourceTree = "<group>"; };
@@ -732,13 +633,14 @@
 		3BBFEB48AC46AD3F021EAAD9233674AA /* GULUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULUserDefaults.m; path = GoogleUtilities/UserDefaults/GULUserDefaults.m; sourceTree = "<group>"; };
 		3E57EAC4A8142668D81F36C8AFE00D88 /* GDTCCTURLSessionDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTURLSessionDataResponse.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTURLSessionDataResponse.m; sourceTree = "<group>"; };
 		3E7E0E9E7FDA2A1BEC7E15C2B1274715 /* GDTCCTUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTUploader.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTUploader.m; sourceTree = "<group>"; };
-		3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PromisesObjC-FBLPromises_Privacy"; path = FBLPromises_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F334AE5EB9C8247E6E7CCC4A3098F46 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
-		40544C7AAC1703B33CF322D6C6486556 /* blazeface.tfl */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = blazeface.tfl; path = Resources/GoogleMVFaceDetectorResources/blazeface.tfl; sourceTree = "<group>"; };
+		40544C7AAC1703B33CF322D6C6486556 /* blazeface.tfl */ = {isa = PBXFileReference; includeInIndex = 1; name = blazeface.tfl; path = Resources/GoogleMVFaceDetectorResources/blazeface.tfl; sourceTree = "<group>"; };
 		41A7ACC9ABD2B5AED76BB187700C3F62 /* GoogleDataTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleDataTransport.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GoogleDataTransport.h; sourceTree = "<group>"; };
+		41C5A8DDBFC12C2B29925C9CBAE50FA3 /* Pods-achalasecurelib2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-achalasecurelib2-Info.plist"; sourceTree = "<group>"; };
 		43B0545C429B44F4D4396D008C3E975B /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		44ADBCA0795BB721374EF40904B569FD /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcher.h; sourceTree = "<group>"; };
-		44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUtilities-GoogleUtilities_Privacy"; path = GoogleUtilities_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E8D43BF16C011531C8F0544B292897 /* GDTCORMetricsMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetricsMetadata.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsMetadata.h; sourceTree = "<group>"; };
 		465DB2B66BCEF3B5D0DDCF8C20E81E39 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
 		468EC8183F581C20B711B2ACD195EBBF /* GDTCORClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORClock.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORClock.m; sourceTree = "<group>"; };
@@ -762,9 +664,9 @@
 		501763AE334DDEC844E11A11CC0A9C13 /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
 		507C03723A2E7E4C481E56AC4CF3759A /* GDTCORRegistrar_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORRegistrar_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORRegistrar_Private.h; sourceTree = "<group>"; };
 		50B301CE99E60DD41B3D3DDF01E7AFB8 /* MLKitFaceDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLKitFaceDetection.framework; path = Frameworks/MLKitFaceDetection.framework; sourceTree = "<group>"; };
-		5167720CC692C885B2965A99834E198D /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
+		5167720CC692C885B2965A99834E198D /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
 		51B6B321567594202222956E6C1E2785 /* GDTCORLogSourceMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORLogSourceMetrics.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORLogSourceMetrics.h; sourceTree = "<group>"; };
-		5264A87349E65580CDF6A4463798B813 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
+		5264A87349E65580CDF6A4463798B813 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
 		52E98321407E092B410A3BD2520B4B27 /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
 		54297C714CA80E6FF9A33DCCE8B326E8 /* GDTCORTransformer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransformer_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORTransformer_Private.h; sourceTree = "<group>"; };
 		547D4F7CE1CCD9F2D313F9C4FE32776C /* GoogleUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.debug.xcconfig; sourceTree = "<group>"; };
@@ -773,7 +675,7 @@
 		55FEFEA7B46DEF4E6B862E102586760E /* GDTCORTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransport.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORTransport.h; sourceTree = "<group>"; };
 		571FA31DDC54DB1B047B51D0D8636909 /* GULUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULUserDefaults.h; path = GoogleUtilities/UserDefaults/Public/GoogleUtilities/GULUserDefaults.h; sourceTree = "<group>"; };
 		57A42687CAA0E2322624884ED04F3D6E /* GTMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMLogger.h; path = Foundation/GTMLogger.h; sourceTree = "<group>"; };
-		58892308046EACE6AE9BE51B5CFBECA3 /* fssd_100_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_100_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_gray_v1.tflite; sourceTree = "<group>"; };
+		58892308046EACE6AE9BE51B5CFBECA3 /* fssd_100_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_100_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_gray_v1.tflite; sourceTree = "<group>"; };
 		594DA3DA1AAECA5DB4C16760A67A97B1 /* TensorFlowLiteC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteC.debug.xcconfig; sourceTree = "<group>"; };
 		59E238B90FAEF7CEF5B43982255CFE01 /* GoogleToolboxForMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.release.xcconfig; sourceTree = "<group>"; };
 		5A37CD9FAE584DFF94AD70C5FD0A21FF /* GDTCORMetrics+GDTCCTSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDTCORMetrics+GDTCCTSupport.h"; path = "GoogleDataTransport/GDTCCTLibrary/Private/GDTCORMetrics+GDTCCTSupport.h"; sourceTree = "<group>"; };
@@ -782,7 +684,6 @@
 		5AED7D8E8689E9C26C1A91380F6BA57F /* GDTCOREvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREvent.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREvent.h; sourceTree = "<group>"; };
 		5C9F87190F711C8871ADA68F2E637F77 /* GDTCCTUploadOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCCTUploadOperation.h; path = GoogleDataTransport/GDTCCTLibrary/Private/GDTCCTUploadOperation.h; sourceTree = "<group>"; };
 		5EB6FB62DCE17C70EC8CC85B1ADBBA6E /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
-		5F0D5DCE36559EECBB8443A7FACBFB85 /* Pods-achalasecurelib2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-achalasecurelib2.debug.xcconfig"; sourceTree = "<group>"; };
 		604C0702C6BA3A935BC455A102417F41 /* MLKitVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLKitVision.debug.xcconfig; sourceTree = "<group>"; };
 		61A48C5FBA308C90C3525ED5006EADDD /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
 		64C82F98C68D29420A29FA80D132E3EE /* GDTCORConsoleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORConsoleLogger.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORConsoleLogger.h; sourceTree = "<group>"; };
@@ -791,7 +692,7 @@
 		6983949784FD88D1B27BA2E6430A4CAA /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
 		6A000E240676D791A5978AA3FB7A29F8 /* GULKeychainStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULKeychainStorage.m; path = GoogleUtilities/Environment/SecureStorage/GULKeychainStorage.m; sourceTree = "<group>"; };
 		6A3F2DA4D9B167E81B0F219940F12291 /* GDTCOREvent_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREvent_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCOREvent_Private.h; sourceTree = "<group>"; };
-		6BBB6C18B2CD3B5774C59C0EB3065D02 /* GoogleMVFaceDetectorResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMVFaceDetectorResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBB6C18B2CD3B5774C59C0EB3065D02 /* MLKitFaceDetection-GoogleMVFaceDetectorResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MLKitFaceDetection-GoogleMVFaceDetectorResources"; path = GoogleMVFaceDetectorResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5571EBD17D6AA93FC9DFF9FFAA3405 /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
 		6D777AA7D71E096F2A509C3197175839 /* GULKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULKeychainUtils.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h; sourceTree = "<group>"; };
 		6DEAB95803EB5F620A16DDB7B31EDF85 /* SignatureRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignatureRunner.swift; path = tensorflow/lite/swift/Sources/SignatureRunner.swift; sourceTree = "<group>"; };
@@ -802,14 +703,14 @@
 		6FEA2E5D6CE3BF0A2473A4E32F3BB492 /* GDTCORDirectorySizeTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORDirectorySizeTracker.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORDirectorySizeTracker.h; sourceTree = "<group>"; };
 		7033FBFAEC6285297F2E0F14BEB73F64 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
 		70674AA50B19B4367412CD7CD888C9F3 /* GDTCOREndpoints_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREndpoints_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCOREndpoints_Private.h; sourceTree = "<group>"; };
-		749214C9935F85ADEAC3F3A1EB575683 /* Pods-achalasecurelib2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-achalasecurelib2-umbrella.h"; sourceTree = "<group>"; };
-		74DC85B29DE4EF4E517D4E384E3259BE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = tensorflow/lite/swift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		743D95D0F7464C94D61230D9CCC5AB8A /* Pods-achalasecurelib2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-achalasecurelib2-umbrella.h"; sourceTree = "<group>"; };
+		74DC85B29DE4EF4E517D4E384E3259BE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = tensorflow/lite/swift/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		7591FB6DD7C9FC59AEB45771B8D3E032 /* TensorFlowLiteSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TensorFlowLiteSwift-dummy.m"; sourceTree = "<group>"; };
 		76BEBB65DC4D03DF3ACCD74794B5BC81 /* nanopb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.debug.xcconfig; sourceTree = "<group>"; };
 		76F5B7A0244EAF03D24F9D945CA680C9 /* IsAppEncrypted.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IsAppEncrypted.m; path = third_party/IsAppEncrypted/IsAppEncrypted.m; sourceTree = "<group>"; };
 		7771BBA0C1C1DAFA217070A8056F393B /* GDTCCTUploadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTUploadOperation.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTUploadOperation.m; sourceTree = "<group>"; };
 		78991B86D78B0C0ABD20679FDC9DE41F /* GDTCORTargets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTargets.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORTargets.h; sourceTree = "<group>"; };
-		7AA7E89D7950B1F00889F9FF0BB1675F /* client_metrics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = client_metrics.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.c; sourceTree = "<group>"; };
+		7AA7E89D7950B1F00889F9FF0BB1675F /* client_metrics.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = client_metrics.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/client_metrics.nanopb.c; sourceTree = "<group>"; };
 		7D1AB0DBC363215DC66FD351AD339534 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
 		7D61C3C02041D0E701EFAA7532C4E5DC /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
 		7EAFD420B0B3C86C4B7B134D1C1AF4B5 /* GDTCORTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORTransformer.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORTransformer.m; sourceTree = "<group>"; };
@@ -820,41 +721,41 @@
 		83ADB92647C5D296A104A37FFB7036BD /* TensorFlowLiteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteSwift.release.xcconfig; sourceTree = "<group>"; };
 		8469905A9C749C89D4DD1ED8D6025FFD /* GoogleDataTransport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleDataTransport-umbrella.h"; sourceTree = "<group>"; };
 		84A843FCEF54F43B4CCE6B0CAC22DBB7 /* external_privacy_context.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = external_privacy_context.nanopb.h; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/external_privacy_context.nanopb.h; sourceTree = "<group>"; };
-		856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleDataTransport; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F55871FD20F35E928F830FCD35BAFC /* GDTCORTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransformer.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORTransformer.h; sourceTree = "<group>"; };
 		8759A98DE61083876A70272A0F9FC531 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
 		87C3CE2FF518C74D189BA1196F849813 /* GDTCORLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORLifecycle.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORLifecycle.h; sourceTree = "<group>"; };
 		8837902DD00098A4C10DE10C59B91894 /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
 		888E939B4CC95F59996595D09D66508A /* GULAppEnvironmentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppEnvironmentUtil.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h; sourceTree = "<group>"; };
 		8ABFED24BA9D22D2E84F57ECD038D749 /* GDTCORStorageEventSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORStorageEventSelector.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORStorageEventSelector.h; sourceTree = "<group>"; };
-		8B2C4990774C34549182687678CF5070 /* fssd_100_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_100_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_v1.tflite; sourceTree = "<group>"; };
+		8B2C4990774C34549182687678CF5070 /* fssd_100_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_100_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_100_8bit_v1.tflite; sourceTree = "<group>"; };
 		8C8C3447AFB922BBB041A70DC91747E8 /* GDTCOREventDropReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREventDropReason.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCOREventDropReason.h; sourceTree = "<group>"; };
-		8CEACA5F186CA7D7EB0647DF2F7534F1 /* cct.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cct.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.c; sourceTree = "<group>"; };
-		8CFEB015CF5D024B4F5E39551DF8C727 /* fssd_25_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_25_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_v1.tflite; sourceTree = "<group>"; };
+		8CEACA5F186CA7D7EB0647DF2F7534F1 /* cct.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cct.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.c; sourceTree = "<group>"; };
+		8CFEB015CF5D024B4F5E39551DF8C727 /* fssd_25_8bit_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_25_8bit_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_v1.tflite; sourceTree = "<group>"; };
 		8D0EA89347946568F72DD6E1864F1A3D /* GDTCORMetricsMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORMetricsMetadata.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORMetricsMetadata.m; sourceTree = "<group>"; };
 		8D48F86669811DDF135A68DB2A483209 /* ResourceBundle-GTMSessionFetcher_Core_Privacy-GTMSessionFetcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GTMSessionFetcher_Core_Privacy-GTMSessionFetcher-Info.plist"; sourceTree = "<group>"; };
 		915F2733B705F19224F2234663602195 /* GDTCORUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploader.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORUploader.h; sourceTree = "<group>"; };
-		924A1A3EEBDFA07869189AAB5D305EC5 /* MFT_fssd_accgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MFT_fssd_accgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_accgray.pb; sourceTree = "<group>"; };
-		9264683869DB03D368724585C52FFD0D /* GoogleToolboxForMac_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleToolboxForMac_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		924A1A3EEBDFA07869189AAB5D305EC5 /* MFT_fssd_accgray.pb */ = {isa = PBXFileReference; includeInIndex = 1; name = MFT_fssd_accgray.pb; path = Resources/GoogleMVFaceDetectorResources/MFT_fssd_accgray.pb; sourceTree = "<group>"; };
+		9264683869DB03D368724585C52FFD0D /* GoogleToolboxForMac-GoogleToolboxForMac_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleToolboxForMac-GoogleToolboxForMac_Privacy"; path = GoogleToolboxForMac_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E1670AEDD0D37372D5AB0AD9CFF7FA /* GDTCORAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORAssert.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORAssert.h; sourceTree = "<group>"; };
 		935957AEAF7D01AE1C75171430F17A54 /* GDTCORReachability_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORReachability_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORReachability_Private.h; sourceTree = "<group>"; };
 		96720E3748C72892CE0A253BD373903E /* GoogleMLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMLKit.debug.xcconfig; sourceTree = "<group>"; };
 		967E2DB9D6A087C4791086F98A6AFADF /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Sources/Core/GTMSessionFetcher.m; sourceTree = "<group>"; };
 		988BAFA17AB8549B28EA0CF88F5E64CE /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		997CE4985FF59B29BBA213C11EB77B64 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BCLlefteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
+		997CE4985FF59B29BBA213C11EB77B64 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLlefteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
 		9ABA62009F0DED90633D95F51DEA5A47 /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
 		9BD4456BE0DBD1A6EC2B61BA9EA2C1BE /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
-		9D8A01C0CE6C2EFDAED2FAC1BEDE6B10 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resources/Logger/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D8A01C0CE6C2EFDAED2FAC1BEDE6B10 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Resources/Logger/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD21C9BC76683703695783424AB69DF /* GDTCORFlatFileStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORFlatFileStorage.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORFlatFileStorage.m; sourceTree = "<group>"; };
 		9DD7DC8E5C0067A6B83C042F342353F4 /* ResourceBundle-FBLPromises_Privacy-PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FBLPromises_Privacy-PromisesObjC-Info.plist"; sourceTree = "<group>"; };
 		9DEA5E68B04EA88E237D31C4D4E30097 /* GoogleDataTransport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransport.release.xcconfig; sourceTree = "<group>"; };
+		9EBEDA86B5056C9C110C8A3D0513C4CD /* Pods-achalasecurelib2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-achalasecurelib2-dummy.m"; sourceTree = "<group>"; };
 		9F78F6098F126B9895B81246E882ACED /* MLImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLImage.release.xcconfig; sourceTree = "<group>"; };
 		9FA567F7DB65720119D0D5671CC4F82A /* GoogleUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleUtilities.modulemap; sourceTree = "<group>"; };
 		A0AB74DB8D9EC1EF7328C0942F1BCBDB /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		A1C4F482A6E38044854636E0BC3934FF /* GDTCORAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORAssert.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORAssert.m; sourceTree = "<group>"; };
 		A1E2F262091077EACBC1F8A8466DA69B /* GoogleToolboxForMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.debug.xcconfig; sourceTree = "<group>"; };
-		A52CCE4B637814AC9A18B30910832B8B /* Pods-achalasecurelib2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-achalasecurelib2.release.xcconfig"; sourceTree = "<group>"; };
 		A55393A44DB3DFB8A1EAE80671F20C25 /* GDTCORProductData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORProductData.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORProductData.m; sourceTree = "<group>"; };
 		A6316F0C8477CDFBAF84616012B87AEE /* GDTCORReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORReachability.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORReachability.m; sourceTree = "<group>"; };
 		A77C0D62188C1284EA198D7BC3E6E3AF /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
@@ -866,23 +767,22 @@
 		AADF8275D194714664724A74544BD02E /* GDTCORClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORClock.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORClock.h; sourceTree = "<group>"; };
 		AC920FC397E10A3DAFF7C447DE6D9D77 /* GDTCCTNanopbHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTNanopbHelpers.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTNanopbHelpers.m; sourceTree = "<group>"; };
 		AD43220E9632CE91222947E1FA2FDB73 /* GTMSessionFetcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.release.xcconfig; sourceTree = "<group>"; };
-		AEBA8CB6AA4F3222AF152902B80CC166 /* GoogleToolboxForMac_Logger_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleToolboxForMac_Logger_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBA8CB6AA4F3222AF152902B80CC166 /* GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy"; path = GoogleToolboxForMac_Logger_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF30185B95E00E0CC15640B0C46FB7A8 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		B03B9BF8C4378CD5186E0AC861563E45 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/Core/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B03B9BF8C4378CD5186E0AC861563E45 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/Core/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		B0E0AE9B10C7978DA4236E44F6666B1A /* GDTCORPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORPlatform.h; path = GoogleDataTransport/GDTCORLibrary/Internal/GDTCORPlatform.h; sourceTree = "<group>"; };
 		B1DF5280E4146D5821456056DB145226 /* GTMSessionFetcherService+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMSessionFetcherService+Internal.h"; path = "Sources/Core/GTMSessionFetcherService+Internal.h"; sourceTree = "<group>"; };
 		B23B3D0246073E600944128A06255B5B /* GDTCORLogSourceMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORLogSourceMetrics.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORLogSourceMetrics.m; sourceTree = "<group>"; };
-		B2CB21BAEFA49A359B128AE6818B7DA8 /* Pods-achalasecurelib2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-achalasecurelib2.modulemap"; sourceTree = "<group>"; };
 		B3D81C8C679CBCACF1DB674C467F3538 /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
 		B413AF9EF9920328EF038D28AFD47782 /* GDTCORMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetrics.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetrics.h; sourceTree = "<group>"; };
-		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5D1397B7AEAD2C5771CBFCD2AF89244 /* compliance.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = compliance.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/compliance.nanopb.c; sourceTree = "<group>"; };
+		B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D1397B7AEAD2C5771CBFCD2AF89244 /* compliance.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = compliance.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/compliance.nanopb.c; sourceTree = "<group>"; };
 		B6365ED10243E9AAE9E729783089BD86 /* GDTCORUploadCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORUploadCoordinator.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORUploadCoordinator.m; sourceTree = "<group>"; };
 		B6EA021D038DB303FF8D0E04F00ACEFF /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
-		B733DCD5BCE8E8D47930F37BA1151FAC /* BCLjoy_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BCLjoy_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLjoy_200.emd; sourceTree = "<group>"; };
+		B733DCD5BCE8E8D47930F37BA1151FAC /* BCLjoy_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLjoy_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLjoy_200.emd; sourceTree = "<group>"; };
 		B7EDA836C97D1FBAF49A9DDB4B4C4411 /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
 		B8C4DA943DCAB61C5D3931B85ED22BFD /* GULAppEnvironmentUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppEnvironmentUtil.m; path = GoogleUtilities/Environment/GULAppEnvironmentUtil.m; sourceTree = "<group>"; };
-		B97D7C8C31697A1C50DDD8CE14B04CA4 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BCLrighteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
+		B97D7C8C31697A1C50DDD8CE14B04CA4 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; includeInIndex = 1; name = BCLrighteyeclosed_200.emd; path = Resources/GoogleMVFaceDetectorResources/BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
 		B990A01A7121206A3264CC8423BBD250 /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
 		BB3A08314F79528D19E49B8BF4142451 /* GoogleDataTransport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransport.debug.xcconfig; sourceTree = "<group>"; };
 		BC30650A056A7862C6A192F7A617B4C7 /* ResourceBundle-nanopb_Privacy-nanopb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-nanopb_Privacy-nanopb-Info.plist"; sourceTree = "<group>"; };
@@ -891,8 +791,9 @@
 		BD945935DF81CF505A3F9998C4170A4D /* GDTCORMetricsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORMetricsController.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORMetricsController.h; sourceTree = "<group>"; };
 		BDD326AF5C31E1D1F08A2918DC432AD0 /* GDTCORUploadBatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploadBatch.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadBatch.h; sourceTree = "<group>"; };
 		BF098F9C683410922A76531DFAC2DF55 /* GDTCCTCompressionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCCTCompressionHelper.h; path = GoogleDataTransport/GDTCCTLibrary/Private/GDTCCTCompressionHelper.h; sourceTree = "<group>"; };
+		BFDC8E72605D7D08B6D45C5C7E9DBE9D /* Pods-achalasecurelib2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-achalasecurelib2.release.xcconfig"; sourceTree = "<group>"; };
 		C16B380F8CA06B4A4020CF3E8C5231C5 /* TensorFlowLiteSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteSwift-prefix.pch"; sourceTree = "<group>"; };
-		C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B95E35E314947F4A339A2A124628CD /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
 		C6D3450EAC2455057F537B87E8DCC283 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		C8E08CB33BE50400FC9F6D46EC5A7098 /* ResourceBundle-GoogleToolboxForMac_Privacy-GoogleToolboxForMac-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleToolboxForMac_Privacy-GoogleToolboxForMac-Info.plist"; sourceTree = "<group>"; };
@@ -902,14 +803,15 @@
 		CED3764E670411390EAC3E235FB26054 /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
 		CED5A837E0BF8548ADCE4A8CCF3CDF8F /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
 		CFB5CF600CD2DD70FA7A5D69C5848840 /* TensorFlowLite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorFlowLite.swift; path = tensorflow/lite/swift/Sources/TensorFlowLite.swift; sourceTree = "<group>"; };
+		D03F9CA39ABFA11E8761908C34BF420B /* Pods-achalasecurelib2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-achalasecurelib2-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D0FC5ABCF1500708D5885F259451D0D0 /* TensorFlowLiteC-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TensorFlowLiteC-xcframeworks.sh"; sourceTree = "<group>"; };
 		D1416D861427CF6DF05B85CE29FC5A6A /* GDTCORTransport_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTransport_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORTransport_Private.h; sourceTree = "<group>"; };
 		D2A4F284B39A908AEB0839F3599E96F4 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
 		D45B9329C179A6CCFC51A797BA69EBF8 /* GDTCOREvent+GDTCCTSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GDTCOREvent+GDTCCTSupport.m"; path = "GoogleDataTransport/GDTCCTLibrary/GDTCOREvent+GDTCCTSupport.m"; sourceTree = "<group>"; };
-		D4B714C6AB1F9F360DBF5E9F82595DF9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = spm_resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D4B714C6AB1F9F360DBF5E9F82595DF9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = spm_resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		D5DD73FFA330931B6C52C25D67A640A1 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
 		D6A419BA09102761BF775E4B105089A3 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
-		D6DBFF0CC39E9B81819A70EEB8847F95 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Frameworks/TensorFlowLiteC.xcframework/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D6DBFF0CC39E9B81819A70EEB8847F95 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Frameworks/TensorFlowLiteC.xcframework/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		D763C59BBFF15291CF79503F28B1DD83 /* GDTCORStorageMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORStorageMetadata.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORStorageMetadata.h; sourceTree = "<group>"; };
 		D7A248B7DB6D4EE15DBC0B393566EFE4 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcherService.h; sourceTree = "<group>"; };
 		D8387DAB2F935BBB0750DD356D849A06 /* GDTCORFlatFileStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORFlatFileStorage.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage.h; sourceTree = "<group>"; };
@@ -917,25 +819,24 @@
 		DA53281C0D7C911C938DBA938E79B2A3 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
 		DB43DBE807388D11251A630C7D201E71 /* GDTCORProductData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORProductData.h; path = GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORProductData.h; sourceTree = "<group>"; };
 		DB5DE99AFEAE6AB48E17D681E61A320D /* GDTCCTCompressionHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTCompressionHelper.m; path = GoogleDataTransport/GDTCCTLibrary/GDTCCTCompressionHelper.m; sourceTree = "<group>"; };
-		DD12AE1EE52D79123EBC399A05082C1D /* Pods-achalasecurelib2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-achalasecurelib2-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD1631C020BC8511EDA4B7F3CAD62FF1 /* ResourceBundle-TensorFlowLite-TensorFlowLiteSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TensorFlowLite-TensorFlowLiteSwift-Info.plist"; sourceTree = "<group>"; };
+		DD9686EBA33721A42844688D352FF3B0 /* Pods-achalasecurelib2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-achalasecurelib2.modulemap"; sourceTree = "<group>"; };
 		DDB86CC6AA25B85B5F07ADA5F02C3A50 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
 		DEBBB15751276C10F77C154EC9CC6228 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Sources/Core/Public/GTMSessionFetcher/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
 		DFFC91FE5F97090F63EBB3D2E003614D /* ResourceBundle-TensorFlowLiteC-TensorFlowLiteC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TensorFlowLiteC-TensorFlowLiteC-Info.plist"; sourceTree = "<group>"; };
-		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TensorFlowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E12F314FB9EBED3D0150F5B2C545694D /* Pods_achalasecurelib2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_achalasecurelib2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1FE2F3E591BD2180B31302B05701604 /* Pods-achalasecurelib2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-achalasecurelib2-Info.plist"; sourceTree = "<group>"; };
-		E264ECDC4CB8C766B32A017FF12C3B3F /* TensorFlowLiteC.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TensorFlowLiteC.xcframework; path = Frameworks/TensorFlowLiteC.xcframework; sourceTree = "<group>"; };
-		E3FD269CAC56F603441A247B455D769B /* Pods-achalasecurelib2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-achalasecurelib2-resources.sh"; sourceTree = "<group>"; };
-		E423DE5CC50441E845C79159310F776E /* fssd_25_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = fssd_25_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_gray_v1.tflite; sourceTree = "<group>"; };
-		E4424F98E2A7C1F38C931B340683FFC9 /* Pods-achalasecurelib2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-achalasecurelib2-dummy.m"; sourceTree = "<group>"; };
+		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TensorFlowLiteSwift; path = TensorFlowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12F314FB9EBED3D0150F5B2C545694D /* Pods-achalasecurelib2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-achalasecurelib2"; path = Pods_achalasecurelib2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24657BB21EEAFA14D32E908572BEFEE /* Pods-achalasecurelib2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-achalasecurelib2-resources.sh"; sourceTree = "<group>"; };
+		E264ECDC4CB8C766B32A017FF12C3B3F /* TensorFlowLiteC.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TensorFlowLiteC.xcframework; path = Frameworks/TensorFlowLiteC.xcframework; sourceTree = "<group>"; };
+		E339C9C968DC2D600F78E9B62656FC5E /* Pods-achalasecurelib2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-achalasecurelib2-acknowledgements.plist"; sourceTree = "<group>"; };
+		E423DE5CC50441E845C79159310F776E /* fssd_25_8bit_gray_v1.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = fssd_25_8bit_gray_v1.tflite; path = Resources/GoogleMVFaceDetectorResources/fssd_25_8bit_gray_v1.tflite; sourceTree = "<group>"; };
 		E47864E38FC32745332F2575CE0BB0EC /* GDTCORFlatFileStorage+Promises.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GDTCORFlatFileStorage+Promises.m"; path = "GoogleDataTransport/GDTCORLibrary/GDTCORFlatFileStorage+Promises.m"; sourceTree = "<group>"; };
 		E57557357ACADFB7F6E086C5698C3937 /* ResourceBundle-GoogleToolboxForMac_Logger_Privacy-GoogleToolboxForMac-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleToolboxForMac_Logger_Privacy-GoogleToolboxForMac-Info.plist"; sourceTree = "<group>"; };
 		E58A6EF80BD1B5A3ACCEB9658CF144C0 /* MLKitCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLKitCommon.release.xcconfig; sourceTree = "<group>"; };
 		E6A85A771BF532740445EA54BE4816CF /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		E6ED4D283C1EE6A27FDD2E7335C35546 /* nanopb-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "nanopb-Info.plist"; sourceTree = "<group>"; };
 		E75022AEA9E11A77D681853942E3392F /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Model.swift; path = tensorflow/lite/swift/Sources/Model.swift; sourceTree = "<group>"; };
-		E826FA0DCB9AA6E7829C68391B323B78 /* GTMSessionFetcher_Core_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTMSessionFetcher_Core_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E826FA0DCB9AA6E7829C68391B323B78 /* GTMSessionFetcher-GTMSessionFetcher_Core_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GTMSessionFetcher-GTMSessionFetcher_Core_Privacy"; path = GTMSessionFetcher_Core_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA642E0C61112F082CB671CDE3BE513F /* MLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLKit.h; path = MLKitCore/Sources/MLKit.h; sourceTree = "<group>"; };
 		EC2693BD84021D8C36717B06A8CD3238 /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
 		EC728BD06A4FEB1E2A59F8745B358A62 /* GDTCORRegistrar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORRegistrar.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORRegistrar.m; sourceTree = "<group>"; };
@@ -949,11 +850,11 @@
 		F1848F437AC8556DAF6B5B0410775B2E /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
 		F3698DCB4CABE69D7F73789CDFAA1993 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = tensorflow/lite/swift/Sources/Delegate.swift; sourceTree = "<group>"; };
 		F56968FCBA226F789CAD25CBA2DB2235 /* cct.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cct.nanopb.h; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.h; sourceTree = "<group>"; };
-		F57AEA2BBA90F694F2AB563DD787FA38 /* external_prequest_context.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = external_prequest_context.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/external_prequest_context.nanopb.c; sourceTree = "<group>"; };
+		F57AEA2BBA90F694F2AB563DD787FA38 /* external_prequest_context.nanopb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = external_prequest_context.nanopb.c; path = GoogleDataTransport/GDTCCTLibrary/Protogen/nanopb/external_prequest_context.nanopb.c; sourceTree = "<group>"; };
 		F627849BAEDBF39581A9B81C67C7B762 /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
-		F6CA8BFC88290AB33297A7C778E05B12 /* TensorFlowLiteC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TensorFlowLiteC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CA8BFC88290AB33297A7C778E05B12 /* TensorFlowLiteC-TensorFlowLiteC */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TensorFlowLiteC-TensorFlowLiteC"; path = TensorFlowLiteC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71F465508853E32AD6BBDF8435E2A17 /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
-		F73AA961F4AEFF2B46B00AE435DF6BE3 /* GoogleDataTransport_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDataTransport_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73AA961F4AEFF2B46B00AE435DF6BE3 /* GoogleDataTransport-GoogleDataTransport_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleDataTransport-GoogleDataTransport_Privacy"; path = GoogleDataTransport_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F794A60B609997470A56CAAA9758B796 /* MLImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLImage.debug.xcconfig; sourceTree = "<group>"; };
 		F8F76BC3631D0F0230D25A4F2C7B2EB5 /* GDTCOREvent+GDTMetricsSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDTCOREvent+GDTMetricsSupport.h"; path = "GoogleDataTransport/GDTCCTLibrary/Private/GDTCOREvent+GDTMetricsSupport.h"; sourceTree = "<group>"; };
 		F9F88F0BDCF99C4512C0C7F9B994AF2E /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
@@ -1070,14 +971,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7B70DE706362ED987AC017EE2DACEEB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD4F64F08A0620C60575F42FBFF8C836 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BBADF943D5E526734ECB2C2B48101C6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1124,6 +1017,7 @@
 				5E0EC3CCE0F4E2A723318BC48E61E184 /* Frameworks */,
 				C1805BBF3FBED3A5982D6F09095EDB6C /* Support Files */,
 			);
+			name = MLKitVision;
 			path = MLKitVision;
 			sourceTree = "<group>";
 		};
@@ -1213,6 +1107,7 @@
 				3F9939150EE5F6068AB39F10AB73E3A9 /* Support Files */,
 				AB0DD6914E448C4DB06298D484E4B03A /* UserDefaults */,
 			);
+			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -1232,6 +1127,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		387557426BE861F498FD9921C09650C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA4BD354AF3759E4B2C1F43A3545EF /* Pods-achalasecurelib2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		3AC0EC710C8D3C324BA28FD378FA62C1 /* GoogleToolboxForMac */ = {
 			isa = PBXGroup;
 			children = (
@@ -1240,6 +1143,7 @@
 				90FD47A7AAB961324C7A93C7DE5961F0 /* NSData+zlib */,
 				2CAD729CAA0CC8CA51001DA69FEAB9BB /* Support Files */,
 			);
+			name = GoogleToolboxForMac;
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
@@ -1296,6 +1200,31 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		4516E33299574B8B56EDFF34CB69FE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */,
+				F73AA961F4AEFF2B46B00AE435DF6BE3 /* GoogleDataTransport-GoogleDataTransport_Privacy */,
+				251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */,
+				AEBA8CB6AA4F3222AF152902B80CC166 /* GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy */,
+				9264683869DB03D368724585C52FFD0D /* GoogleToolboxForMac-GoogleToolboxForMac_Privacy */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */,
+				44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */,
+				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */,
+				E826FA0DCB9AA6E7829C68391B323B78 /* GTMSessionFetcher-GTMSessionFetcher_Core_Privacy */,
+				6BBB6C18B2CD3B5774C59C0EB3065D02 /* MLKitFaceDetection-GoogleMVFaceDetectorResources */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */,
+				3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */,
+				E12F314FB9EBED3D0150F5B2C545694D /* Pods-achalasecurelib2 */,
+				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
+				3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */,
+				F6CA8BFC88290AB33297A7C778E05B12 /* TensorFlowLiteC-TensorFlowLiteC */,
+				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */,
+				1D5601775997FD3F96D4BBB895A282FB /* TensorFlowLiteSwift-TensorFlowLite */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		48503E913894208C7B18797C7F732700 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1314,14 +1243,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TensorFlowLiteC";
-			sourceTree = "<group>";
-		};
-		582E33D3DC409B642FA379D41B595B47 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EFC833473684A8AEDF3DEF46B4240EA5 /* Pods-achalasecurelib2 */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		5E0EC3CCE0F4E2A723318BC48E61E184 /* Frameworks */ = {
@@ -1406,6 +1327,7 @@
 				48503E913894208C7B18797C7F732700 /* Resources */,
 				D7E264CE9A0C221AF5DE572FB9D44484 /* Support Files */,
 			);
+			name = PromisesObjC;
 			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
@@ -1474,6 +1396,7 @@
 				C048AA7C722354997DDF01AC6B323113 /* Core */,
 				55B9D0F9718E9167921F390FE6C0E096 /* Support Files */,
 			);
+			name = TensorFlowLiteC;
 			path = TensorFlowLiteC;
 			sourceTree = "<group>";
 		};
@@ -1511,6 +1434,7 @@
 				418CE523085BDB06985FDE6988DF4C0C /* Resources */,
 				2B291B617FB79FBC165DCB3083AB4831 /* Support Files */,
 			);
+			name = MLKitFaceDetection;
 			path = MLKitFaceDetection;
 			sourceTree = "<group>";
 		};
@@ -1545,6 +1469,7 @@
 				A212CDD67A159E1A6EFC9A7760015B13 /* Frameworks */,
 				267DC0A59D3B9AD51C87C8461FAE056C /* Support Files */,
 			);
+			name = MLKitCommon;
 			path = MLKitCommon;
 			sourceTree = "<group>";
 		};
@@ -1666,6 +1591,7 @@
 				B4602669E8D2A68AF85DD02A62CC5C5F /* Resources */,
 				F549F9573159E2972C81DFC1E0401A2F /* Support Files */,
 			);
+			name = GoogleDataTransport;
 			path = GoogleDataTransport;
 			sourceTree = "<group>";
 		};
@@ -1675,6 +1601,7 @@
 				62EAEC7826F49D94B007B2E6037799F6 /* Frameworks */,
 				407ECBB4B53D23CAEEF30884F26FB777 /* Support Files */,
 			);
+			name = MLImage;
 			path = MLImage;
 			sourceTree = "<group>";
 		};
@@ -1704,6 +1631,7 @@
 				8C51A5C6B42446FB416D7AEAFB5C5603 /* Privacy */,
 				2C91741FF4D88D508A4A77A4E6344F82 /* Support Files */,
 			);
+			name = TensorFlowLiteSwift;
 			path = TensorFlowLiteSwift;
 			sourceTree = "<group>";
 		};
@@ -1739,8 +1667,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6E0ABE1D108B64A0DEF97FBC66FF3E9C /* Pods */,
-				D505CE9AA40780C63E5EE95B82649297 /* Products */,
-				582E33D3DC409B642FA379D41B595B47 /* Targets Support Files */,
+				4516E33299574B8B56EDFF34CB69FE69 /* Products */,
+				387557426BE861F498FD9921C09650C7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1758,31 +1686,6 @@
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D505CE9AA40780C63E5EE95B82649297 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */,
-				F73AA961F4AEFF2B46B00AE435DF6BE3 /* GoogleDataTransport_Privacy.bundle */,
-				251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */,
-				AEBA8CB6AA4F3222AF152902B80CC166 /* GoogleToolboxForMac_Logger_Privacy.bundle */,
-				9264683869DB03D368724585C52FFD0D /* GoogleToolboxForMac_Privacy.bundle */,
-				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
-				44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */,
-				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */,
-				E826FA0DCB9AA6E7829C68391B323B78 /* GTMSessionFetcher_Core_Privacy.bundle */,
-				6BBB6C18B2CD3B5774C59C0EB3065D02 /* GoogleMVFaceDetectorResources.bundle */,
-				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
-				3227F3FC45681D7CEE5D1355A532398A /* nanopb_Privacy.bundle */,
-				E12F314FB9EBED3D0150F5B2C545694D /* Pods_achalasecurelib2.framework */,
-				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
-				3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */,
-				F6CA8BFC88290AB33297A7C778E05B12 /* TensorFlowLiteC.bundle */,
-				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */,
-				1D5601775997FD3F96D4BBB895A282FB /* TensorFlowLite.bundle */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D53062D2F1C5A2D05D03D82611A6678E /* encode */ = {
@@ -1830,6 +1733,7 @@
 				93EA35A5F13AABB44CFA57111E41A48A /* Resources */,
 				CA5009272609A2EBBF1BD5FE50DA6C22 /* Support Files */,
 			);
+			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -1847,6 +1751,7 @@
 				775E5A0CE13C33E3547058C6B1A49D8F /* Core */,
 				1AFB0D81443CB07F778FE9CA506035DC /* Support Files */,
 			);
+			name = GTMSessionFetcher;
 			path = GTMSessionFetcher;
 			sourceTree = "<group>";
 		};
@@ -1858,29 +1763,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EFC833473684A8AEDF3DEF46B4240EA5 /* Pods-achalasecurelib2 */ = {
-			isa = PBXGroup;
-			children = (
-				B2CB21BAEFA49A359B128AE6818B7DA8 /* Pods-achalasecurelib2.modulemap */,
-				2A94DEFA82D939EE193E095EA2E098FD /* Pods-achalasecurelib2-acknowledgements.markdown */,
-				DD12AE1EE52D79123EBC399A05082C1D /* Pods-achalasecurelib2-acknowledgements.plist */,
-				E4424F98E2A7C1F38C931B340683FFC9 /* Pods-achalasecurelib2-dummy.m */,
-				E1FE2F3E591BD2180B31302B05701604 /* Pods-achalasecurelib2-Info.plist */,
-				E3FD269CAC56F603441A247B455D769B /* Pods-achalasecurelib2-resources.sh */,
-				749214C9935F85ADEAC3F3A1EB575683 /* Pods-achalasecurelib2-umbrella.h */,
-				5F0D5DCE36559EECBB8443A7FACBFB85 /* Pods-achalasecurelib2.debug.xcconfig */,
-				A52CCE4B637814AC9A18B30910832B8B /* Pods-achalasecurelib2.release.xcconfig */,
-			);
-			name = "Pods-achalasecurelib2";
-			path = "Target Support Files/Pods-achalasecurelib2";
-			sourceTree = "<group>";
-		};
 		F428598ECD83A7706512CC349C4705B7 /* GoogleMLKit */ = {
 			isa = PBXGroup;
 			children = (
 				376930A070C7E2F62F7A2A929EC2EB04 /* MLKitCore */,
 				8F730F9216BAE88EEF9E421E778AD30A /* Support Files */,
 			);
+			name = GoogleMLKit;
 			path = GoogleMLKit;
 			sourceTree = "<group>";
 		};
@@ -1913,6 +1802,23 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GoogleDataTransport";
+			sourceTree = "<group>";
+		};
+		FBAA4BD354AF3759E4B2C1F43A3545EF /* Pods-achalasecurelib2 */ = {
+			isa = PBXGroup;
+			children = (
+				DD9686EBA33721A42844688D352FF3B0 /* Pods-achalasecurelib2.modulemap */,
+				D03F9CA39ABFA11E8761908C34BF420B /* Pods-achalasecurelib2-acknowledgements.markdown */,
+				E339C9C968DC2D600F78E9B62656FC5E /* Pods-achalasecurelib2-acknowledgements.plist */,
+				9EBEDA86B5056C9C110C8A3D0513C4CD /* Pods-achalasecurelib2-dummy.m */,
+				41C5A8DDBFC12C2B29925C9CBAE50FA3 /* Pods-achalasecurelib2-Info.plist */,
+				E24657BB21EEAFA14D32E908572BEFEE /* Pods-achalasecurelib2-resources.sh */,
+				743D95D0F7464C94D61230D9CCC5AB8A /* Pods-achalasecurelib2-umbrella.h */,
+				0BA84DDBAE6B9885A604568A2C572981 /* Pods-achalasecurelib2.debug.xcconfig */,
+				BFDC8E72605D7D08B6D45C5C7E9DBE9D /* Pods-achalasecurelib2.release.xcconfig */,
+			);
+			name = "Pods-achalasecurelib2";
+			path = "Target Support Files/Pods-achalasecurelib2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2066,13 +1972,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F45C900CB0F7BF6B517C3DCB60BF0923 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F798CF6F5FB1EEC7BA31F0DB0B758D36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2098,7 +1997,7 @@
 			);
 			name = "TensorFlowLiteSwift-TensorFlowLite";
 			productName = TensorFlowLite;
-			productReference = 1D5601775997FD3F96D4BBB895A282FB /* TensorFlowLite.bundle */;
+			productReference = 1D5601775997FD3F96D4BBB895A282FB /* TensorFlowLiteSwift-TensorFlowLite */;
 			productType = "com.apple.product-type.bundle";
 		};
 		10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */ = {
@@ -2118,7 +2017,7 @@
 			);
 			name = TensorFlowLiteSwift;
 			productName = TensorFlowLite;
-			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */;
+			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */;
 			productType = "com.apple.product-type.framework";
 		};
 		1BFBEDBF7E03729D43C96530EE190825 /* PromisesObjC-FBLPromises_Privacy */ = {
@@ -2135,7 +2034,7 @@
 			);
 			name = "PromisesObjC-FBLPromises_Privacy";
 			productName = FBLPromises_Privacy;
-			productReference = 3F238BB22C5201CE689CAF2F766AED95 /* FBLPromises_Privacy.bundle */;
+			productReference = 3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
@@ -2154,7 +2053,7 @@
 			);
 			name = PromisesObjC;
 			productName = FBLPromises;
-			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
+			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */;
 			productType = "com.apple.product-type.framework";
 		};
 		417B25AC44CA1D040034CC1F375CEE36 /* GTMSessionFetcher-GTMSessionFetcher_Core_Privacy */ = {
@@ -2171,7 +2070,7 @@
 			);
 			name = "GTMSessionFetcher-GTMSessionFetcher_Core_Privacy";
 			productName = GTMSessionFetcher_Core_Privacy;
-			productReference = E826FA0DCB9AA6E7829C68391B323B78 /* GTMSessionFetcher_Core_Privacy.bundle */;
+			productReference = E826FA0DCB9AA6E7829C68391B323B78 /* GTMSessionFetcher-GTMSessionFetcher_Core_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		55522A91938FF505CFEBEAD2DD85AE2D /* nanopb-nanopb_Privacy */ = {
@@ -2188,7 +2087,7 @@
 			);
 			name = "nanopb-nanopb_Privacy";
 			productName = nanopb_Privacy;
-			productReference = 3227F3FC45681D7CEE5D1355A532398A /* nanopb_Privacy.bundle */;
+			productReference = 3227F3FC45681D7CEE5D1355A532398A /* nanopb-nanopb_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5C0371EE948D0357B8EE0E34ABB44BF0 /* GoogleDataTransport */ = {
@@ -2209,7 +2108,7 @@
 			);
 			name = GoogleDataTransport;
 			productName = GoogleDataTransport;
-			productReference = 856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */;
+			productReference = 856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport */;
 			productType = "com.apple.product-type.framework";
 		};
 		5FF1A58DEEC5DB749FCD6C120B97CC82 /* GoogleUtilities-GoogleUtilities_Privacy */ = {
@@ -2226,39 +2125,8 @@
 			);
 			name = "GoogleUtilities-GoogleUtilities_Privacy";
 			productName = GoogleUtilities_Privacy;
-			productReference = 44E291D18340EAC3F761346198515323 /* GoogleUtilities_Privacy.bundle */;
+			productReference = 44E291D18340EAC3F761346198515323 /* GoogleUtilities-GoogleUtilities_Privacy */;
 			productType = "com.apple.product-type.bundle";
-		};
-		7550EA975D625287D90245F89D2FB5BF /* Pods-achalasecurelib2-achalasecurelib2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D103FD4F0F83617A50F27B9F9C2A7F94 /* Build configuration list for PBXNativeTarget "Pods-achalasecurelib2-achalasecurelib2Tests" */;
-			buildPhases = (
-				F45C900CB0F7BF6B517C3DCB60BF0923 /* Headers */,
-				4871C846290590E77179CD7089301037 /* Sources */,
-				B7B70DE706362ED987AC017EE2DACEEB /* Frameworks */,
-				286BB54436AFCD3C78512741713C99BE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ED41E5FF6EA006E8CAA34A62A406280C /* PBXTargetDependency */,
-				963B8C421EF2EF6424521F9047337B1B /* PBXTargetDependency */,
-				8400E5E78D41ACF0DAB8BC1ACDCBB2F6 /* PBXTargetDependency */,
-				1A8141E28A16C61198E97651D7ED426E /* PBXTargetDependency */,
-				D816F1BC9404B38140E4E516202FCBCA /* PBXTargetDependency */,
-				FB6B8DA5754F000FD92784411E12AAE1 /* PBXTargetDependency */,
-				2FF288B4CC5CD349620D2AB7190A0642 /* PBXTargetDependency */,
-				8910A7C03A5F63A2573764FC9528092A /* PBXTargetDependency */,
-				9FA91A3CE85224BF3FEC20AE37AD36B2 /* PBXTargetDependency */,
-				DC8E04B5C59B48ADE99C626FADD9F529 /* PBXTargetDependency */,
-				A7C8A571794E412DD4C34463699647B0 /* PBXTargetDependency */,
-				F5543AE1E00D689F7929F3E8FBDC035F /* PBXTargetDependency */,
-				AFFBA04244512261E86F6691812FAB4D /* PBXTargetDependency */,
-			);
-			name = "Pods-achalasecurelib2-achalasecurelib2Tests";
-			productName = Pods_achalasecurelib2_achalasecurelib2Tests;
-			productReference = 276BD9127A7BFBE0461637D597C3BC21 /* Pods_achalasecurelib2_achalasecurelib2Tests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		79DD9AF809A77657BB059B78519718AC /* Pods-achalasecurelib2 */ = {
 			isa = PBXNativeTarget;
@@ -2288,7 +2156,7 @@
 			);
 			name = "Pods-achalasecurelib2";
 			productName = Pods_achalasecurelib2;
-			productReference = E12F314FB9EBED3D0150F5B2C545694D /* Pods_achalasecurelib2.framework */;
+			productReference = E12F314FB9EBED3D0150F5B2C545694D /* Pods-achalasecurelib2 */;
 			productType = "com.apple.product-type.framework";
 		};
 		8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */ = {
@@ -2307,7 +2175,7 @@
 			);
 			name = GoogleUtilities;
 			productName = GoogleUtilities;
-			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */;
+			productReference = B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities */;
 			productType = "com.apple.product-type.framework";
 		};
 		9CC46F9FA6BA4F71309A4A4ACA6F02C3 /* GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy */ = {
@@ -2324,7 +2192,7 @@
 			);
 			name = "GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy";
 			productName = GoogleToolboxForMac_Logger_Privacy;
-			productReference = AEBA8CB6AA4F3222AF152902B80CC166 /* GoogleToolboxForMac_Logger_Privacy.bundle */;
+			productReference = AEBA8CB6AA4F3222AF152902B80CC166 /* GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		B261389A17E06B2008D7A7EE94835132 /* MLKitFaceDetection-GoogleMVFaceDetectorResources */ = {
@@ -2341,7 +2209,7 @@
 			);
 			name = "MLKitFaceDetection-GoogleMVFaceDetectorResources";
 			productName = GoogleMVFaceDetectorResources;
-			productReference = 6BBB6C18B2CD3B5774C59C0EB3065D02 /* GoogleMVFaceDetectorResources.bundle */;
+			productReference = 6BBB6C18B2CD3B5774C59C0EB3065D02 /* MLKitFaceDetection-GoogleMVFaceDetectorResources */;
 			productType = "com.apple.product-type.bundle";
 		};
 		CCF6C52F9360788E81C175B1BF1292C5 /* GoogleToolboxForMac-GoogleToolboxForMac_Privacy */ = {
@@ -2358,7 +2226,7 @@
 			);
 			name = "GoogleToolboxForMac-GoogleToolboxForMac_Privacy";
 			productName = GoogleToolboxForMac_Privacy;
-			productReference = 9264683869DB03D368724585C52FFD0D /* GoogleToolboxForMac_Privacy.bundle */;
+			productReference = 9264683869DB03D368724585C52FFD0D /* GoogleToolboxForMac-GoogleToolboxForMac_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */ = {
@@ -2377,7 +2245,7 @@
 			);
 			name = nanopb;
 			productName = nanopb;
-			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */;
+			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb */;
 			productType = "com.apple.product-type.framework";
 		};
 		D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */ = {
@@ -2397,7 +2265,7 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = 251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */;
+			productReference = 251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac */;
 			productType = "com.apple.product-type.framework";
 		};
 		D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */ = {
@@ -2416,7 +2284,7 @@
 			);
 			name = GTMSessionFetcher;
 			productName = GTMSessionFetcher;
-			productReference = C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */;
+			productReference = C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD0D41A9315A48004E57F4F0E54095F1 /* GoogleDataTransport-GoogleDataTransport_Privacy */ = {
@@ -2433,7 +2301,7 @@
 			);
 			name = "GoogleDataTransport-GoogleDataTransport_Privacy";
 			productName = GoogleDataTransport_Privacy;
-			productReference = F73AA961F4AEFF2B46B00AE435DF6BE3 /* GoogleDataTransport_Privacy.bundle */;
+			productReference = F73AA961F4AEFF2B46B00AE435DF6BE3 /* GoogleDataTransport-GoogleDataTransport_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E84A5C2B777F1A7DFA141FF65E7EF5F8 /* TensorFlowLiteC-TensorFlowLiteC */ = {
@@ -2450,7 +2318,7 @@
 			);
 			name = "TensorFlowLiteC-TensorFlowLiteC";
 			productName = TensorFlowLiteC;
-			productReference = F6CA8BFC88290AB33297A7C778E05B12 /* TensorFlowLiteC.bundle */;
+			productReference = F6CA8BFC88290AB33297A7C778E05B12 /* TensorFlowLiteC-TensorFlowLiteC */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -2471,7 +2339,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D505CE9AA40780C63E5EE95B82649297 /* Products */;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4516E33299574B8B56EDFF34CB69FE69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2493,7 +2363,6 @@
 				D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */,
 				55522A91938FF505CFEBEAD2DD85AE2D /* nanopb-nanopb_Privacy */,
 				79DD9AF809A77657BB059B78519718AC /* Pods-achalasecurelib2 */,
-				7550EA975D625287D90245F89D2FB5BF /* Pods-achalasecurelib2-achalasecurelib2Tests */,
 				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
 				1BFBEDBF7E03729D43C96530EE190825 /* PromisesObjC-FBLPromises_Privacy */,
 				AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */,
@@ -2525,13 +2394,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0FF056B85EEA82D66974C83050681767 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		286BB54436AFCD3C78512741713C99BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2791,13 +2653,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4871C846290590E77179CD7089301037 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54FDD2DFAA4FABF1496596A8F49591C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2948,23 +2803,11 @@
 			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
 			targetProxy = BD6A4446619F178EDCCE81B8C6582BAF /* PBXContainerItemProxy */;
 		};
-		1A8141E28A16C61198E97651D7ED426E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
-			targetProxy = 1FC45D839373161FEA64EB0B3B31F92E /* PBXContainerItemProxy */;
-		};
 		1B018809AB4AF695AA2FD65C0BA3ECC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleDataTransport;
 			target = 5C0371EE948D0357B8EE0E34ABB44BF0 /* GoogleDataTransport */;
 			targetProxy = 8D3FA76A2A61EA638E32EF6E528687AC /* PBXContainerItemProxy */;
-		};
-		2FF288B4CC5CD349620D2AB7190A0642 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MLKitCommon;
-			target = 0A4338C5C8BD51549298BECF630A6D57 /* MLKitCommon */;
-			targetProxy = 8CB878ABCE9D5293611CC7C600EEC89C /* PBXContainerItemProxy */;
 		};
 		3B5EDC9BEEF5A08A6189656121E53B76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3032,23 +2875,11 @@
 			target = 8628FA5433C5F582EFA7209B6B4C8CD7 /* MLKitFaceDetection */;
 			targetProxy = F34B1E261906C2E1601BC2EB1C13E5F7 /* PBXContainerItemProxy */;
 		};
-		8400E5E78D41ACF0DAB8BC1ACDCBB2F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleMLKit;
-			target = 6D46A1F6123B14449A2A1FC04011860D /* GoogleMLKit */;
-			targetProxy = 20CBFA6A48B5AAFAE6B13B731770CD25 /* PBXContainerItemProxy */;
-		};
 		84EF1EE1BB2F4FB5B4B998B0BA6959D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy";
 			target = 9CC46F9FA6BA4F71309A4A4ACA6F02C3 /* GoogleToolboxForMac-GoogleToolboxForMac_Logger_Privacy */;
 			targetProxy = A0C8456043100AF0F358CE9EF3AAC435 /* PBXContainerItemProxy */;
-		};
-		8910A7C03A5F63A2573764FC9528092A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MLKitFaceDetection;
-			target = 8628FA5433C5F582EFA7209B6B4C8CD7 /* MLKitFaceDetection */;
-			targetProxy = BC29C056DACF875E110ACAA8AA65EB2F /* PBXContainerItemProxy */;
 		};
 		89AD1F646B04927D394E2C8AEDA6E7A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3068,35 +2899,11 @@
 			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
 			targetProxy = CFA1091A55B4D802A4F4DC8CA9BB1F0D /* PBXContainerItemProxy */;
 		};
-		963B8C421EF2EF6424521F9047337B1B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleDataTransport;
-			target = 5C0371EE948D0357B8EE0E34ABB44BF0 /* GoogleDataTransport */;
-			targetProxy = 61A9C49303DBE80DB13568602390CFE4 /* PBXContainerItemProxy */;
-		};
 		98079C3813909F96ED9FC60EB325677B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TensorFlowLiteC;
 			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
 			targetProxy = 0053959ADF4B8DF29343A8E9D14B2E08 /* PBXContainerItemProxy */;
-		};
-		9FA91A3CE85224BF3FEC20AE37AD36B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MLKitVision;
-			target = F1D55369E4C8976F396F83588DAC03C4 /* MLKitVision */;
-			targetProxy = 275E7713F877049E2C38592CD6F2E123 /* PBXContainerItemProxy */;
-		};
-		A7C8A571794E412DD4C34463699647B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TensorFlowLiteC;
-			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
-			targetProxy = 05240247C86684A90F8695364AEABD0D /* PBXContainerItemProxy */;
-		};
-		AFFBA04244512261E86F6691812FAB4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanopb;
-			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
-			targetProxy = 4800A1B5BB702FC61AE56E912386124E /* PBXContainerItemProxy */;
 		};
 		B3E446903673B8433E6572399A60E5DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3164,18 +2971,6 @@
 			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
 			targetProxy = 7BD023B7E7389BD3DE28945E484E6A15 /* PBXContainerItemProxy */;
 		};
-		D816F1BC9404B38140E4E516202FCBCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleUtilities;
-			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
-			targetProxy = 451909514F0F86D08A312A84F004DFCD /* PBXContainerItemProxy */;
-		};
-		DC8E04B5C59B48ADE99C626FADD9F529 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PromisesObjC;
-			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
-			targetProxy = 1C67B18C6AC72D11F42DD92104E97331 /* PBXContainerItemProxy */;
-		};
 		E17282651E112618758A749D08CD1C1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleToolboxForMac-GoogleToolboxForMac_Privacy";
@@ -3188,29 +2983,11 @@
 			target = 55522A91938FF505CFEBEAD2DD85AE2D /* nanopb-nanopb_Privacy */;
 			targetProxy = 733611873D9E28F63F422D3EFB588006 /* PBXContainerItemProxy */;
 		};
-		ED41E5FF6EA006E8CAA34A62A406280C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GTMSessionFetcher;
-			target = D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */;
-			targetProxy = E42597C614DEE5CCD3317DB692F0DF97 /* PBXContainerItemProxy */;
-		};
 		F099E8F73EB51EA1F02176E8511DE7C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleToolboxForMac;
 			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
 			targetProxy = 03F8B0468BB394F172E28364D1EABBB7 /* PBXContainerItemProxy */;
-		};
-		F5543AE1E00D689F7929F3E8FBDC035F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TensorFlowLiteSwift;
-			target = 10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */;
-			targetProxy = E557401F13A1389DD37D63370F9AF64E /* PBXContainerItemProxy */;
-		};
-		FB6B8DA5754F000FD92784411E12AAE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MLImage;
-			target = BE3B5914C1194353E85796E3EE3CE245 /* MLImage */;
-			targetProxy = 3D7503F0A3C9C8590817389C6176EEAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3431,83 +3208,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		137FCB1A30C3E4B855CA5A0BDB951176 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-achalasecurelib2-achalasecurelib2Tests/Pods-achalasecurelib2-achalasecurelib2Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-achalasecurelib2-achalasecurelib2Tests/Pods-achalasecurelib2-achalasecurelib2Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		15C77EB52D0C816CB1DA12BADF72A09E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-achalasecurelib2-achalasecurelib2Tests/Pods-achalasecurelib2-achalasecurelib2Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-achalasecurelib2-achalasecurelib2Tests/Pods-achalasecurelib2-achalasecurelib2Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		279A273393573D0C920D2B18190BEEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3742,7 +3442,7 @@
 		};
 		473C58EA785379FEFA468F30D5CAA925 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A52CCE4B637814AC9A18B30910832B8B /* Pods-achalasecurelib2.release.xcconfig */;
+			baseConfigurationReference = BFDC8E72605D7D08B6D45C5C7E9DBE9D /* Pods-achalasecurelib2.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3922,7 +3622,7 @@
 		};
 		5F060C71B81C4FD2E098693BBB7AD75A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F0D5DCE36559EECBB8443A7FACBFB85 /* Pods-achalasecurelib2.debug.xcconfig */;
+			baseConfigurationReference = 0BA84DDBAE6B9885A604568A2C572981 /* Pods-achalasecurelib2.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4793,15 +4493,6 @@
 			buildConfigurations = (
 				8A8713022AA86CCEA3237CCF035028FF /* Debug */,
 				2EED01369553A0891621AE2C93282435 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D103FD4F0F83617A50F27B9F9C2A7F94 /* Build configuration list for PBXNativeTarget "Pods-achalasecurelib2-achalasecurelib2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				15C77EB52D0C816CB1DA12BADF72A09E /* Debug */,
-				137FCB1A30C3E4B855CA5A0BDB951176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

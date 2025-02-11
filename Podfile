@@ -7,8 +7,4 @@ target 'achalasecurelib2' do
   # Pods for achalasecurelib2
   pod 'GoogleMLKit/FaceDetection', '7.0.0'
   pod 'TensorFlowLiteSwift'
-
-  target 'achalasecurelib2Tests' do
-    # Pods for testing
-  end
 end
