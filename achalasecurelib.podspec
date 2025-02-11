@@ -23,9 +23,15 @@ Pod::Spec.new do |s|
 
   # Ensure no simulator support is included
   s.platform = :ios, '15.5'
-  s.xcconfig = {
+  s.pod_target_xcconfig = {
     'ARCHS' => 'arm64',
     'ONLY_ACTIVE_ARCH' => 'YES',
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64' # Exclude simulator architectures
   }
+
+  # Ensure CocoaPods understands this is only for real devices
+  s.test_spec 'Tests' do |test_spec|
+    test_spec.platform = :ios, '15.5'
+    test_spec.requires_app_host = true
+  end
 end
