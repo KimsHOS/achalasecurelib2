@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kimsHOS/achalasecurelib2.git', :tag => s.version.to_s }
 
   # Deployment settings
-  s.ios.deployment_target = '15.5' # Real device minimum iOS version
+  s.ios.deployment_target = '15.5' # Corrected, no need for `s.platform`
+
   s.static_framework = true
 
   # Specify the vendored framework
   s.vendored_frameworks = 'achalasecurelib2.framework'
-  s.requires_arc = true
-  s.resources = ['Info.plist']
 
+  s.requires_arc = true
 
   # Define dependencies
   s.dependency 'GoogleMLKit/FaceDetection', '7.0.0'
@@ -27,10 +27,8 @@ Pod::Spec.new do |s|
   # Swift version
   s.swift_version = '5.0'
 
+  # Exclude all simulator architectures
   s.pod_target_xcconfig = {
-  'ARCHS' => 'arm64',
-  'ONLY_ACTIVE_ARCH' => 'YES',
-  'VALID_ARCHS' => 'arm64'
-}
-
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
+  }
 end

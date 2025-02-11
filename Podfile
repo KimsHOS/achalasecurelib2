@@ -8,11 +8,11 @@ target 'achalasecurelib2' do
   pod 'GoogleMLKit/FaceDetection', '7.0.0'
   pod 'TensorFlowLiteSwift'
 
-  # Exclude arm64 for the simulator to avoid linking issues
+  # Exclude all simulator architectures (arm64 & x86_64)
   post_install do |installer|
     installer.pods_project.targets.each do |target|
       target.build_configurations.each do |config|
-        config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+        config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64 x86_64'
       end
     end
   end
