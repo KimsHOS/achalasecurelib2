@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   }
   
   # This ensures that no simulator support is included
-  s.platform = :ios, '12.0'
+  #s.platform = :ios, '12.0'
 end
