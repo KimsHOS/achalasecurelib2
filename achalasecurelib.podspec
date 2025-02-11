@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
   s.author           = { 'Your Name' => 'your.email@example.com' }
   s.source           = { :git => 'https://github.com/kimsHOS/achalasecurelib2.git', :tag => s.version.to_s }
 
-  # ✅ Explicitly set platform (device-only)
+  # ✅ Platform (Device-only)
   s.platform = :ios, '15.5'
 
   s.static_framework = true
 
-  # ✅ Specify the vendored framework
+  # ✅ Ensure the correct vendored framework path
   s.vendored_frameworks = 'achalasecurelib2.framework'
 
   s.requires_arc = true
@@ -27,12 +27,10 @@ Pod::Spec.new do |s|
 
   # ✅ Exclude all simulator architectures
   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64',
-    'VALID_ARCHS' => 'arm64'
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
   }
 
-  # ✅ Prevent building for simulators
   s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS' => 'arm64 x86_64'
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64'
   }
 end
