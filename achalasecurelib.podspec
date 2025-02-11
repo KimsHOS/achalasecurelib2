@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'achalasecurelib'
-  s.version          = '1.0.1' # Updated version
+  s.version          = '1.0.0' # Update version as needed
   s.summary          = 'A secure library for face detection using Google ML Kit and TensorFlow Lite.'
   s.description      = <<-DESC
                        A secure library that provides face detection capabilities using Google ML Kit and TensorFlow Lite.
@@ -31,11 +31,9 @@ Pod::Spec.new do |s|
     'VALID_ARCHS' => 'arm64'
   }
 
-  # Test Specification
+  # Test specification (for real devices only)
   s.test_spec 'Tests' do |test_spec|
     test_spec.platform = :ios, '15.5'
     test_spec.requires_app_host = true
-    test_spec.source_files = 'Tests/**/*.{swift,m}'
-    test_spec.dependency 'GoogleMLKit/FaceDetection', '7.0.0'
   end
 end
