@@ -4,9 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<data>
+		Z0fk4W5Lt+ANE93mw55r99iEFG8=
+		</data>
+		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
+		</data>
 		<key>FaceAntiSpoofing.tflite</key>
 		<data>
 		vRX0jDbRmWJv2ZyC9tov5BspXMM=
+		</data>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<data>
+		rBE7pMuqRUEUAXIR54Dr1qx4XRw=
+		</data>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<data>
+		0RIPW1ePSM2dn3tMJMqtbKIWr2Y=
+		</data>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		WXQUJr75eMRgiVnLGyf8Gr3uLUU=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
@@ -60,6 +84,30 @@
 		<data>
 		RxtbTN3LjpFChp3tmniX3KD+dsE=
 		</data>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/Info.plist</key>
+		<data>
+		edszBVwLgwGxfgIC2YawLYYWgs0=
+		</data>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		GqeAMkwbcNQeG0K4qQhQh2vHhHo=
+		</data>
+		<key>GoogleToolboxForMac_Privacy.bundle/Info.plist</key>
+		<data>
+		Si+nXBc6E31b8br/aS+TBJjBOa4=
+		</data>
+		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
+		</data>
+		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
+		<data>
+		3DY8iW8QiEGt/NEZD0s6itROoTs=
+		</data>
+		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		9Dge7JFNlx7Vk430tsjNsK3d0Ng=
+		</data>
 		<key>Headers/achalasecurelib2.h</key>
 		<data>
 		Nawl1PcKFmN/roFK00ov57LbXy4=
@@ -68,17 +116,13 @@
 		<data>
 		xhc1lWnuJqNKFC61NlSY8dSwn4Y=
 		</data>
-		<key>Modules/achalasecurelib2.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		FX445LJCH3cVqKs6e8AkKDoxIVM=
-		</data>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		JHUo7UkmxEE0Z6kLUoK3tEbukPg=
+		RwOtjaRn0/hi0ZjnySHqDffqRBg=
 		</data>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		CQNTaY26CTX196Uf27Fm7j0tJAE=
+		u/AQptVIV3KMgZLWuI/ASDHQtyk=
 		</data>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -86,11 +130,11 @@
 		</data>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CQNTaY26CTX196Uf27Fm7j0tJAE=
+		u/AQptVIV3KMgZLWuI/ASDHQtyk=
 		</data>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		duQI//EqmRu5kssqaONwJDDvs9I=
+		WKXIAqemtufNu+6N1bstkpMIq10=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,14 +160,64 @@
 		<data>
 		yf7RXn6zyOEDf3ObcIgc0pApXH0=
 		</data>
+		<key>nanopb_Privacy.bundle/Info.plist</key>
+		<data>
+		XoUTP22t1PXV+8oDGnw7m2ghbBs=
+		</data>
+		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		KY5lfwC2TvsgFj4wt7hkMmainbs=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>FBLPromises_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tWpA/galq/QDp9hF8J8n5EJaHe17Y4mz+0esrgj5y58=
+			</data>
+		</dict>
+		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
+			</data>
+		</dict>
 		<key>FaceAntiSpoofing.tflite</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			qYB1fVXig1r/afL6mwSRTiHUJt2KQ1iMKYLVDoA47AI=
+			</data>
+		</dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hQJ68nZW9mEPa2MZkSuLrgwA+NSx4sqPLBTUxLPdhzA=
+			</data>
+		</dict>
+		<key>GTMSessionFetcher_Core_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
+		<key>GoogleDataTransport_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IFbFdN75OmeS6Ti3b3FYpWHvd/vCS/mbHdBJuOcU9OY=
+			</data>
+		</dict>
+		<key>GoogleDataTransport_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z7s8T3ambVNpi66R9xEMAPIUjm5vE619MlkpCbwBDlE=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
@@ -217,6 +311,48 @@
 			2pAlL0mzu5QuX4gBgKFFYfZpKW5/s+3s3quqi2u3gio=
 			</data>
 		</dict>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2Or2/lrxgvKinbVWgh2UIe6U/8sRSVNdCtl5ALXsNTw=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Logger_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PkqTy+hqzvfdfgY6KMhJmS9Vbn9SytxfN8HosOG1RoY=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Poih7EvqEzFxIDj66ihi29+CxK4WEfvs8j4VwF4QgDw=
+			</data>
+		</dict>
+		<key>GoogleToolboxForMac_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
+			</data>
+		</dict>
+		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kEfp4ui8Q09SUwZX2WTGLfttkui7Nym3nwXrO24eSxM=
+			</data>
+		</dict>
+		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+Btc+PBDZicS7KnpeFdnJkzxkAJf5720l3cpbAaN5Tw=
+			</data>
+		</dict>
 		<key>Headers/achalasecurelib2.h</key>
 		<dict>
 			<key>hash2</key>
@@ -224,25 +360,18 @@
 			311+8e23abuV7gf0Zu/fLerPeXLmHRmOxyypJJmWxMk=
 			</data>
 		</dict>
-		<key>Modules/achalasecurelib2.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CHwOoISI610PBjUZyJfcKgTRmA+AWjPHJZhN2mSqR+8=
-			</data>
-		</dict>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sVPMlcvPY0DC+78/K/C+2+/XUC7Ha4+xHm4Xq2O6k0g=
+			+PVa/AV3GO0/DtcUlV+sMpar3LqHiXUlq4wiguZWTys=
 			</data>
 		</dict>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GKqcmqOGcjChlcXji0WPfNlr+1qwcD/05+SsuJtpUfs=
+			F5ROFpnsGOuLiRtnNdeO3kvztTQGj+oQG1Q51OkTHb8=
 			</data>
 		</dict>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -256,14 +385,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GKqcmqOGcjChlcXji0WPfNlr+1qwcD/05+SsuJtpUfs=
+			F5ROFpnsGOuLiRtnNdeO3kvztTQGj+oQG1Q51OkTHb8=
 			</data>
 		</dict>
 		<key>Modules/achalasecurelib2.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0k7bw/S0kzwp+1Ma05IAjvOflxJcG4ZytBYdhJID68=
+			FXUCBpR9dEdCrSeXdQqr9knRsjcv8OCRHFD3VMURpUY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -306,6 +435,20 @@
 			<key>hash2</key>
 			<data>
 			18H38TA3aYLHAEkg3cQZJawuWuz2Ui9HbIu7NmnbcBM=
+			</data>
+		</dict>
+		<key>nanopb_Privacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uAS669reOE8qERXRERy5JIduKJ3B8xZ5Fgg4lb9BvEU=
+			</data>
+		</dict>
+		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cpujy9D0WMeM1h7fFzUO2v4ONMqG4xTsZMjLIszSG1Q=
 			</data>
 		</dict>
 	</dict>
