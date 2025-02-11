@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   # Specify the vendored framework
   s.vendored_frameworks = 'achalasecurelib2.framework'
   s.requires_arc = true
+  s.resources = ['Info.plist']
+
 
   # Define dependencies
   s.dependency 'GoogleMLKit/FaceDetection', '7.0.0'
@@ -25,9 +27,10 @@ Pod::Spec.new do |s|
   # Swift version
   s.swift_version = '5.0'
 
-  # Exclude simulator architectures
   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64',
-    'ONLY_ACTIVE_ARCH' => 'YES'
-  }
+  'ARCHS' => 'arm64',
+  'ONLY_ACTIVE_ARCH' => 'YES',
+  'VALID_ARCHS' => 'arm64'
+}
+
 end
