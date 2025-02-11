@@ -30,4 +30,5 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64',
     'VALID_ARCHS' => 'arm64'
   }
+  s.platform = :ios, '15.5'
 end
