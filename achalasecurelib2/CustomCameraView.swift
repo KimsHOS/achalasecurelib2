@@ -1,9 +1,8 @@
 import SwiftUI
 import UIKit
 import AVFoundation
+import MLKit
 import Vision
-import MLKitFaceDetection
-import MLKitVision
 
 struct ContentView1: View {
     @State private var isCameraPresented = false
@@ -17,7 +16,7 @@ struct ContentView1: View {
     
 //    var body: some View {
 //        NavigationView{
-//            
+//
 //                VStack(spacing: 20) {
 //                    Button(action: {
 //                        isCameraPresented = true
@@ -98,7 +97,7 @@ struct ContentView1: View {
 //                        .padding([.leading, .trailing], 20)
 //                    }
 //
-//                    
+//
 //                }
 //                .navigationBarBackButtonHidden(true) // Hide default back button
 //                .toolbar {
@@ -122,7 +121,7 @@ struct ContentView1: View {
 //    }
 //    private func handleFaceResult(model: AchalaSecureResultModel) {
 //          recognitionResult = model
-//        
+//
 //      }
     var body: some View{
         return EmptyView()
@@ -197,15 +196,57 @@ struct ImagePicker: UIViewControllerRepresentable {
     }
 }
 
-struct CameraView1: UIViewControllerRepresentable {
-    @Binding var isPresented: Bool
-    var onFaceDetection: (Int) -> Void
-    var faceResult: (AchalaSecureResultModel) -> Void
-    var verifyUser : UIImage?
-    var isVerifyUser: Bool?
-    
+//struct CameraView1: UIViewControllerRepresentable {
+//    @Binding var isPresented: Bool
+//    var onFaceDetection: (Int) -> Void
+//    var faceResult: (AchalaSecureResultModel) -> Void
+//    var verifyUser : UIImage?
+//    var isVerifyUser: Bool?
+//
+//
+//    func makeUIViewController(context: Context) -> CameraViewController {
+//        let cameraVC = CameraViewController()
+//        cameraVC.onDismiss = {
+//            isPresented = false
+//        }
+//        cameraVC.onFaceDetection = onFaceDetection
+//        cameraVC.faceResult = faceResult
+//        cameraVC.verifyUser = verifyUser
+//        cameraVC.isVerifyUser = isVerifyUser
+//
+//        return cameraVC
+//    }
+//
+//    func updateUIViewController(_ uiViewController: CameraViewController, context: Context) {
+//
+//
+//
+//    }
+//}
 
-    func makeUIViewController(context: Context) -> CameraViewController {
+public struct CameraView1: UIViewControllerRepresentable {
+    @Binding public var isPresented: Bool
+    public var onFaceDetection: (Int) -> Void
+    public var faceResult: (AchalaSecureResultModel) -> Void
+    public var verifyUser: UIImage?
+    public var isVerifyUser: Bool?
+
+    // Public initializer for external access
+    public init(
+        isPresented: Binding<Bool>,
+        onFaceDetection: @escaping (Int) -> Void,
+        faceResult: @escaping (AchalaSecureResultModel) -> Void,
+        verifyUser: UIImage? = nil,
+        isVerifyUser: Bool? = nil
+    ) {
+        self._isPresented = isPresented
+        self.onFaceDetection = onFaceDetection
+        self.faceResult = faceResult
+        self.verifyUser = verifyUser
+        self.isVerifyUser = isVerifyUser
+    }
+
+    public func makeUIViewController(context: Context) -> CameraViewController {
         let cameraVC = CameraViewController()
         cameraVC.onDismiss = {
             isPresented = false
@@ -214,18 +255,16 @@ struct CameraView1: UIViewControllerRepresentable {
         cameraVC.faceResult = faceResult
         cameraVC.verifyUser = verifyUser
         cameraVC.isVerifyUser = isVerifyUser
-        
         return cameraVC
     }
 
-    func updateUIViewController(_ uiViewController: CameraViewController, context: Context) {
-        
-    
-        
+    public func updateUIViewController(_ uiViewController: CameraViewController, context: Context) {
+        // If you need to update the UI dynamically
     }
 }
 
-class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
+
+public class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     var captureSession: AVCaptureSession!
     var videoPreviewLayer: AVCaptureVideoPreviewLayer!
     var onDismiss: (() -> Void)?
@@ -252,7 +291,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
     
     
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .black
         // Initialize imageView
@@ -368,7 +407,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
         }
     }
     
-    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+    public func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         frameCount += 1
         if frameCount % 30 != 0 { return } // Process every 10th frame
         
@@ -717,7 +756,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
 //
 //        return UIImage(cgImage: cgImage, scale: scale, orientation: image.imageOrientation)
 //    }
-//    
+//
     private func cropRectFromBitmap(image: UIImage, toRect rect: CGRect) -> UIImage? {
         // Ensure the cropping rectangle is within bounds of the original image
         let scale = image.scale
@@ -987,5 +1026,3 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
 #Preview {
     ContentView1()
 }
-
-
