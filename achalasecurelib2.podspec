@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'achalasecurelib2'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A secure library for face detection using Google ML Kit and TensorFlow Lite.'
   s.description      = 'A secure library that provides face detection capabilities using Google ML Kit and TensorFlow Lite.'
   s.homepage         = 'https://github.com/kimsHOS/achalasecurelib2'
