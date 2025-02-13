@@ -21,6 +21,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C5B2113C2D5DBB3F00AFCD9D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4206ACEF4CBDCC511EE06791 /* Pods-achalasecurelib2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelib2.debug.xcconfig"; path = "Target Support Files/Pods-achalasecurelib2/Pods-achalasecurelib2.debug.xcconfig"; sourceTree = "<group>"; };
 		477A3C4C4DE90A62E4743B29 /* Pods-achalasecurelib2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-achalasecurelib2.release.xcconfig"; path = "Target Support Files/Pods-achalasecurelib2/Pods-achalasecurelib2.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +142,7 @@
 				C5F30D9F2D5A273A00AC695F /* Frameworks */,
 				C5F30DA02D5A273A00AC695F /* Resources */,
 				9956CED1C110D082DE56449E /* [CP] Copy Pods Resources */,
+				C5B2113C2D5DBB3F00AFCD9D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
